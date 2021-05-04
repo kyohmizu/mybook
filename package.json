@@ -4,6 +4,6 @@
   },
   "scripts": {
     "serve": "honkit serve",
-    "build": "honkit build ./src ./docs"
+    "build": "honkit build ./ ./docs"
   }
 }
