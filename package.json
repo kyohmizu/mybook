@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "honkit": "^3.6.17"
+  },
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build ./src ./docs"
   }
 }
