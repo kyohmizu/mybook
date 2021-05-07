@@ -1,6 +1,21 @@
 - Kubernetes
   - [General](k8s/general.md)
+  - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
+- Linux
+  - [General](linux/general.md)
+  - [Tips](linux/tips.md)
+  - [References](linux/references.md)
+- Git
+  - [General](git/general.md)
+  - [References](git/references.md)
+- Golang
+  - [General](golang/general.md)
+  - [Modules](golang/modules.md)
+  - [References](golang/references.md)
+- Terraform
+  - [General](terraform/general.md)
+  - [References](terraform/references.md)
 - GCP
   - [General](gcp/general.md)
   - [References](gcp/references.md)
