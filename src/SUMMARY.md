@@ -1,5 +1,6 @@
 - Kubernetes
   - [General](k8s/general.md)
+  - [Ingress](k8s/ingress.md)
   - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
 - Linux
@@ -8,6 +9,7 @@
   - [References](linux/references.md)
 - Git
   - [General](git/general.md)
+  - [Tips](git/tips.md)
   - [References](git/references.md)
 - Golang
   - [General](golang/general.md)
@@ -18,6 +20,7 @@
   - [References](terraform/references.md)
 - GCP
   - [General](gcp/general.md)
+  - [Cloud Run](gcp/cloudrun.md)
   - [References](gcp/references.md)
 - AWS
   - [General](aws/general.md)
@@ -26,4 +29,5 @@
   - [References](aws/references.md)
 - Security
   - [General](security/general.md)
+  - [CVE](security/cve.md)
   - [References](security/references.md)
