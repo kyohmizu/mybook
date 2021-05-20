@@ -5,6 +5,7 @@
   - [References](k8s/references.md)
 - Linux
   - [General](linux/general.md)
+  - [awk](linux/awk.md)
   - [Tips](linux/tips.md)
   - [References](linux/references.md)
 - Git

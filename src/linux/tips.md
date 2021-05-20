@@ -13,3 +13,9 @@ $ echo yes | terraform apply
 ```bash
 $ cat sample.txt | sort | uniq
 ```
+
+### ファイルの指定行のみ表示
+
+```bash
+$ sed -n 10p file
+```

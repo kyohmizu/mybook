@@ -34,3 +34,26 @@ spec:
 
 - 参考：https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip
 
+### GKE で HTTPS 接続に事前に用意した証明書を使用する
+
+- 事前に証明書を作成しておく
+  - 参考：[Google マネージド SSL 証明書の使用](https://cloud.google.com/load-balancing/docs/ssl-certificates/google-managed-certs)
+- ingress リソースに `kubernetes.io/pre-shared-cert` annotation を付与する
+  - 参考：[GKE - Google マネージド SSL 証明書の使用](https://cloud.google.com/kubernetes-engine/docs/how-to/managed-certs)
+
+```yaml
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: helloweb
+  annotations:
+    ingress.gcp.kubernetes.io/pre-shared-cert: helloweb-cert
+  labels:
+    app: hello
+spec:
+  backend:
+    serviceName: helloweb-backend
+    servicePort: 8080
+```
+
+
