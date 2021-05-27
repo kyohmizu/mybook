@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Commands · HonKit</title>
+        <title>Security Logging · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.20">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="switch-role.html" />
+    <link rel="next" href="references.html" />
     
     
-    <link rel="prev" href="general.html" />
+    <link rel="prev" href="cloudrun.html" />
     
 
     </head>
@@ -463,9 +463,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../gcp/general.html">
+        <li class="chapter " data-level="1.8.1" data-path="general.html">
             
-                <a href="../gcp/general.html">
+                <a href="general.html">
             
                     
                     General
@@ -476,9 +476,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.2" data-path="../gcp/cloudrun.html">
+        <li class="chapter " data-level="1.8.2" data-path="cloudrun.html">
             
-                <a href="../gcp/cloudrun.html">
+                <a href="cloudrun.html">
             
                     
                     Cloud Run
@@ -489,9 +489,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.3" data-path="../gcp/security_logging.html">
+        <li class="chapter active" data-level="1.8.3" data-path="security_logging.html">
             
-                <a href="../gcp/security_logging.html">
+                <a href="security_logging.html">
             
                     
                     Security Logging
@@ -502,9 +502,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.4" data-path="../gcp/references.html">
+        <li class="chapter " data-level="1.8.4" data-path="references.html">
             
-                <a href="../gcp/references.html">
+                <a href="references.html">
             
                     
                     References
@@ -534,9 +534,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="general.html">
+        <li class="chapter " data-level="1.9.1" data-path="../aws/general.html">
             
-                <a href="general.html">
+                <a href="../aws/general.html">
             
                     
                     General
@@ -547,9 +547,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.9.2" data-path="command.html">
+        <li class="chapter " data-level="1.9.2" data-path="../aws/command.html">
             
-                <a href="command.html">
+                <a href="../aws/command.html">
             
                     
                     Commands
@@ -560,9 +560,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.3" data-path="switch-role.html">
+        <li class="chapter " data-level="1.9.3" data-path="../aws/switch-role.html">
             
-                <a href="switch-role.html">
+                <a href="../aws/switch-role.html">
             
                     
                     Switch Role
@@ -573,9 +573,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.4" data-path="references.html">
+        <li class="chapter " data-level="1.9.4" data-path="../aws/references.html">
             
-                <a href="references.html">
+                <a href="../aws/references.html">
             
                     
                     References
@@ -679,7 +679,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Commands</a>
+        <a href=".." >Security Logging</a>
     </h1>
 </div>
 
@@ -694,7 +694,73 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h1 id="security-logging">Security Logging</h1>
+<h2 id="access-transparency-logs-アクセスの透明性ログ">Access Transparency Logs (アクセスの透明性ログ)</h2>
+<p><a href="https://cloud.google.com/logging/docs/audit/access-transparency-overview" target="_blank">https://cloud.google.com/logging/docs/audit/access-transparency-overview</a></p>
+<ul>
+<li>「アクセスの透明性ログには、Google の担当者がお客様のコンテンツにアクセスした際に行った操作が記録されます。」</li>
+<li>一定のサポートレベルが必要</li>
+</ul>
+<h2 id="audit-logs-監査ログ">Audit Logs (監査ログ)</h2>
+<p><a href="https://cloud.google.com/logging/docs/audit" target="_blank">https://cloud.google.com/logging/docs/audit</a></p>
+<ul>
+<li>監査ログの種類<ul>
+<li>管理アクティビティ (activity)</li>
+<li>データアクセス (data_access)</li>
+<li>システムイベント (system_event)</li>
+<li>ポリシー拒否 (policy)</li>
+</ul>
+</li>
+<li>自動的に _Required バケットに保存される<ul>
+<li>activity と system_event のみ</li>
+</ul>
+</li>
+<li>IAM &amp; Admin - Audit Logs でデータアクセス監査ログの種類を設定<ul>
+<li>Admin Write は必須</li>
+<li>ユーザーごとにログを出力しないようにもできる</li>
+</ul>
+</li>
+</ul>
+<h2 id="ログ転送">ログ転送</h2>
+<p><a href="https://cloud.google.com/logging/docs/routing/overview" target="_blank">https://cloud.google.com/logging/docs/routing/overview</a></p>
+<p><a href="https://cloud.google.com/logging/docs/export/configure_export_v2" target="_blank">https://cloud.google.com/logging/docs/export/configure_export_v2</a></p>
+<ul>
+<li>転送先の種類<ul>
+<li>ログバケット → リアルタイム</li>
+<li>GCS → 1時間ごと</li>
+<li>Pub/Sub → ほぼリアルタイム</li>
+<li>BigQuery → 〃</li>
+<li>Splunk → 〃</li>
+</ul>
+</li>
+<li>ログルーターを作成<ul>
+<li>監査ログの場合、_Required の条件を参考にする</li>
+<li>転送先の書き込み権限が必要</li>
+</ul>
+</li>
+<li>terraform 実装例:</li>
+</ul>
+<pre><code class="lang-t">resource &quot;google_logging_project_sink&quot; &quot;audit&quot; {
+  project     = &quot;project_id&quot;
+  name        = &quot;audit-log-sink&quot;
+  destination = &quot;logging.googleapis.com/projects/audit_project_id/locations/global/buckets/audit&quot;
+  filter      = &quot;LOG_ID(\&quot;cloudaudit.googleapis.com/activity\&quot;) OR LOG_ID(\&quot;externalaudit.googleapis.com/activity\&quot;) OR LOG_ID(\&quot;cloudaudit.googleapis.com/system_event\&quot;) OR LOG_ID(\&quot;externalaudit.googleapis.com/system_event\&quot;) OR LOG_ID(\&quot;cloudaudit.googleapis.com/access_transparency\&quot;) OR LOG_ID(\&quot;externalaudit.googleapis.com/access_transparency\&quot;)&quot;
+
+  unique_writer_identity = true
+}
+
+resource &quot;google_project_iam_member&quot; &quot;log-writer&quot; {
+  project = &quot;audit_project_id&quot;
+  role    = &quot;roles/logging.bucketWriter&quot;
+  member  = google_logging_project_sink.audit[0].writer_identity
+
+  condition {
+    title       = &quot;audit-log&quot;
+    expression  = &quot;resource.name.endsWith(&apos;locations/global/buckets/audit&apos;)&quot;
+  }
+}
+</code></pre>
+
                                 
                                 </section>
                             
@@ -721,12 +787,12 @@
 
             
                 
-                <a href="general.html" class="navigation navigation-prev " aria-label="Previous page: General">
+                <a href="cloudrun.html" class="navigation navigation-prev " aria-label="Previous page: Cloud Run">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="switch-role.html" class="navigation navigation-next " aria-label="Next page: Switch Role">
+                <a href="references.html" class="navigation navigation-next " aria-label="Next page: References">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -737,7 +803,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Commands","level":"1.9.2","depth":2,"next":{"title":"Switch Role","level":"1.9.3","depth":2,"path":"aws/switch-role.md","ref":"aws/switch-role.md","articles":[]},"previous":{"title":"General","level":"1.9.1","depth":2,"path":"aws/general.md","ref":"aws/general.md","articles":[]},"dir":"neutral"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"aws/command.md","mtime":"2021-05-27T07:58:30.291Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-05-27T07:58:44.450Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Security Logging","level":"1.8.3","depth":2,"next":{"title":"References","level":"1.8.4","depth":2,"path":"gcp/references.md","ref":"gcp/references.md","articles":[]},"previous":{"title":"Cloud Run","level":"1.8.2","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/security_logging.md","mtime":"2021-05-27T07:58:30.291Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-05-27T07:58:44.450Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
