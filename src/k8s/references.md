@@ -18,6 +18,8 @@ https://github.com/jetstack/version-checker
 
 https://github.com/kyverno/kyverno
 
+https://github.com/cruise-automation/k-rail
+
 https://github.com/keptn/keptn
 
 https://github.com/kubernetes/kops/
@@ -25,6 +27,10 @@ https://github.com/kubernetes/kops/
 https://github.com/healthchecks/healthchecks
 
 https://github.com/kvaps/kubectl-node-shell
+
+https://github.com/weaveworks-experiments/kspan
+
+https://github.com/kubernetes-sigs/krew-index
 
 ### Blogs
 

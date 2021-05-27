@@ -3,6 +3,9 @@
   - [Ingress](k8s/ingress.md)
   - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
+- Prometheus
+  - [General](prometheus/general.md)
+  - [References](prometheus/references.md)
 - Linux
   - [General](linux/general.md)
   - [awk](linux/awk.md)
@@ -22,6 +25,7 @@
 - GCP
   - [General](gcp/general.md)
   - [Cloud Run](gcp/cloudrun.md)
+  - [Security Logging](gcp/security_logging.md)
   - [References](gcp/references.md)
 - AWS
   - [General](aws/general.md)
