@@ -1,6 +1,8 @@
 - Kubernetes
   - [General](k8s/general.md)
   - [Ingress](k8s/ingress.md)
+  - [Security](k8s/security.md)
+  - [Helm](k8s/helm.md)
   - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
 - Prometheus
@@ -8,6 +10,7 @@
   - [References](prometheus/references.md)
 - Linux
   - [General](linux/general.md)
+  - [grep](linux/grep.md)
   - [awk](linux/awk.md)
   - [Tips](linux/tips.md)
   - [References](linux/references.md)
@@ -35,4 +38,6 @@
 - Security
   - [General](security/general.md)
   - [CVE](security/cve.md)
+  - [CVSS](security/cvss.md)
+  - [MITRE ATT&CK](security/mitre-attck.md)
   - [References](security/references.md)

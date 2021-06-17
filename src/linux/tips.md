@@ -19,3 +19,9 @@ $ cat sample.txt | sort | uniq
 ```bash
 $ sed -n 10p file
 ```
+
+### エラーを標準出力に出さないようにする
+
+```bash
+$ [command] 2>/dev/null
+```
