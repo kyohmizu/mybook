@@ -141,7 +141,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../k8s/tips.html">
+        <li class="chapter " data-level="1.2.3" data-path="../k8s/security.html">
+            
+                <a href="../k8s/security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../k8s/helm.html">
+            
+                <a href="../k8s/helm.html">
+            
+                    
+                    Helm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../k8s/tips.html">
             
                 <a href="../k8s/tips.html">
             
@@ -154,7 +180,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="../k8s/references.html">
+        <li class="chapter " data-level="1.2.6" data-path="../k8s/references.html">
             
                 <a href="../k8s/references.html">
             
@@ -244,7 +270,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="../linux/awk.html">
+        <li class="chapter " data-level="1.4.2" data-path="../linux/grep.html">
+            
+                <a href="../linux/grep.html">
+            
+                    
+                    grep
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../linux/awk.html">
             
                 <a href="../linux/awk.html">
             
@@ -257,7 +296,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="../linux/tips.html">
+        <li class="chapter " data-level="1.4.4" data-path="../linux/tips.html">
             
                 <a href="../linux/tips.html">
             
@@ -270,7 +309,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="../linux/references.html">
+        <li class="chapter " data-level="1.4.5" data-path="../linux/references.html">
             
                 <a href="../linux/references.html">
             
@@ -631,7 +670,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.3" data-path="../security/references.html">
+        <li class="chapter " data-level="1.10.3" data-path="../security/cvss.html">
+            
+                <a href="../security/cvss.html">
+            
+                    
+                    CVSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../security/mitre-attck.html">
+            
+                <a href="../security/mitre-attck.html">
+            
+                    
+                    MITRE ATT&CK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../security/references.html">
             
                 <a href="../security/references.html">
             
@@ -736,6 +801,7 @@
 <li>ログルーターを作成<ul>
 <li>監査ログの場合、_Required の条件を参考にする</li>
 <li>転送先の書き込み権限が必要</li>
+<li>GCS の場合、転送先の project 名は指定不要（project を通して名前が一意になっている）</li>
 </ul>
 </li>
 <li>terraform 実装例:</li>
@@ -803,7 +869,7 @@ resource &quot;google_project_iam_member&quot; &quot;log-writer&quot; {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Security Logging","level":"1.8.3","depth":2,"next":{"title":"References","level":"1.8.4","depth":2,"path":"gcp/references.md","ref":"gcp/references.md","articles":[]},"previous":{"title":"Cloud Run","level":"1.8.2","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/security_logging.md","mtime":"2021-05-27T07:58:30.291Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-05-27T07:58:44.450Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Security Logging","level":"1.8.3","depth":2,"next":{"title":"References","level":"1.8.4","depth":2,"path":"gcp/references.md","ref":"gcp/references.md","articles":[]},"previous":{"title":"Cloud Run","level":"1.8.2","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/security_logging.md","mtime":"2021-06-17T00:33:54.368Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-17T00:34:08.917Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

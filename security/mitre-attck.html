@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Cloud Run · HonKit</title>
+        <title>MITRE ATT&CK · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.20">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="security_logging.html" />
+    <link rel="next" href="references.html" />
     
     
-    <link rel="prev" href="general.html" />
+    <link rel="prev" href="cvss.html" />
     
 
     </head>
@@ -502,9 +502,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="general.html">
+        <li class="chapter " data-level="1.8.1" data-path="../gcp/general.html">
             
-                <a href="general.html">
+                <a href="../gcp/general.html">
             
                     
                     General
@@ -515,9 +515,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.8.2" data-path="cloudrun.html">
+        <li class="chapter " data-level="1.8.2" data-path="../gcp/cloudrun.html">
             
-                <a href="cloudrun.html">
+                <a href="../gcp/cloudrun.html">
             
                     
                     Cloud Run
@@ -528,9 +528,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.3" data-path="security_logging.html">
+        <li class="chapter " data-level="1.8.3" data-path="../gcp/security_logging.html">
             
-                <a href="security_logging.html">
+                <a href="../gcp/security_logging.html">
             
                     
                     Security Logging
@@ -541,9 +541,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.4" data-path="references.html">
+        <li class="chapter " data-level="1.8.4" data-path="../gcp/references.html">
             
-                <a href="references.html">
+                <a href="../gcp/references.html">
             
                     
                     References
@@ -644,9 +644,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.10.1" data-path="../security/general.html">
+        <li class="chapter " data-level="1.10.1" data-path="general.html">
             
-                <a href="../security/general.html">
+                <a href="general.html">
             
                     
                     General
@@ -657,9 +657,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.2" data-path="../security/cve.html">
+        <li class="chapter " data-level="1.10.2" data-path="cve.html">
             
-                <a href="../security/cve.html">
+                <a href="cve.html">
             
                     
                     CVE
@@ -670,9 +670,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.3" data-path="../security/cvss.html">
+        <li class="chapter " data-level="1.10.3" data-path="cvss.html">
             
-                <a href="../security/cvss.html">
+                <a href="cvss.html">
             
                     
                     CVSS
@@ -683,9 +683,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.4" data-path="../security/mitre-attck.html">
+        <li class="chapter active" data-level="1.10.4" data-path="mitre-attck.html">
             
-                <a href="../security/mitre-attck.html">
+                <a href="mitre-attck.html">
             
                     
                     MITRE ATT&CK
@@ -696,9 +696,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.5" data-path="../security/references.html">
+        <li class="chapter " data-level="1.10.5" data-path="references.html">
             
-                <a href="../security/references.html">
+                <a href="references.html">
             
                     
                     References
@@ -744,7 +744,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Cloud Run</a>
+        <a href=".." >MITRE ATT&CK</a>
     </h1>
 </div>
 
@@ -759,22 +759,28 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="cloud-run">Cloud Run</h1>
-<h3 id="エンドポイントへのアクセス制御">エンドポイントへのアクセス制御</h3>
+                                <h1 id="mitre-attck">MITRE ATT&amp;CK</h1>
+<p><a href="https://attack.mitre.org/" target="_blank">https://attack.mitre.org/</a></p>
+<h3 id="概要">概要</h3>
+<p><a href="https://www.intellilink.co.jp/column/security/2020/060200.aspx" target="_blank">https://www.intellilink.co.jp/column/security/2020/060200.aspx</a></p>
+<h3 id="mitre-attck-の活用">MITRE ATT&amp;CK の活用</h3>
+<p><a href="https://attack.mitre.org/resources/working-with-attack/" target="_blank">https://attack.mitre.org/resources/working-with-attack/</a></p>
 <ul>
-<li><code>Cloud Run Invoker</code> から <code>allusers</code> を削除する</li>
-<li>参考：<a href="https://shiodaifuku.io/articles/H56ui9aUoKyJ0Dg4oUCe" target="_blank">https://shiodaifuku.io/articles/H56ui9aUoKyJ0Dg4oUCe</a></li>
+<li>ATT&amp;CK Navigator (<a href="https://mitre-attack.github.io/attack-navigator/" target="_blank">https://mitre-attack.github.io/attack-navigator/</a>)<ul>
+<li>使い方 (<a href="https://www.intellilink.co.jp/column/security/2020/073100.aspx" target="_blank">https://www.intellilink.co.jp/column/security/2020/073100.aspx</a>)</li>
 </ul>
-<pre><code class="lang-bash"><span class="hljs-comment"># Bearer 認証のIDトークンが必要</span>
-$ gcloud auth login
-$ gcloud auth print-identity-token
-</code></pre>
-<ul>
-<li>ヘッダに埋め込む</li>
-<li>Chrome では <a href="https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj" target="_blank">ModHeader</a> を使える</li>
+</li>
+<li>ATT&amp;CK in STIX (<a href="https://github.com/mitre/cti" target="_blank">https://github.com/mitre/cti</a>)<ul>
+<li>pyattck (<a href="https://github.com/swimlane/pyattck" target="_blank">https://github.com/swimlane/pyattck</a>)</li>
 </ul>
-<pre><code>Authorization: Bearer &lt;IDトークン&gt;
-</code></pre>
+</li>
+</ul>
+<h3 id="攻撃のテスト">攻撃のテスト</h3>
+<p><a href="https://github.com/redcanaryco/atomic-red-team" target="_blank">https://github.com/redcanaryco/atomic-red-team</a></p>
+<h3 id="参考">参考</h3>
+<p><a href="https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0" target="_blank">https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0</a></p>
+<p><a href="https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf" target="_blank">https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf</a></p>
+
                                 
                                 </section>
                             
@@ -801,12 +807,12 @@ $ gcloud auth print-identity-token
 
             
                 
-                <a href="general.html" class="navigation navigation-prev " aria-label="Previous page: General">
+                <a href="cvss.html" class="navigation navigation-prev " aria-label="Previous page: CVSS">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="security_logging.html" class="navigation navigation-next " aria-label="Next page: Security Logging">
+                <a href="references.html" class="navigation navigation-next " aria-label="Next page: References">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -817,7 +823,7 @@ $ gcloud auth print-identity-token
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Cloud Run","level":"1.8.2","depth":2,"next":{"title":"Security Logging","level":"1.8.3","depth":2,"path":"gcp/security_logging.md","ref":"gcp/security_logging.md","articles":[]},"previous":{"title":"General","level":"1.8.1","depth":2,"path":"gcp/general.md","ref":"gcp/general.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/cloudrun.md","mtime":"2021-06-17T00:33:54.368Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-17T00:34:08.917Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"MITRE ATT&CK","level":"1.10.4","depth":2,"next":{"title":"References","level":"1.10.5","depth":2,"path":"security/references.md","ref":"security/references.md","articles":[]},"previous":{"title":"CVSS","level":"1.10.3","depth":2,"path":"security/cvss.md","ref":"security/cvss.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/mitre-attck.md","mtime":"2021-06-17T00:33:54.368Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-17T00:34:08.917Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
