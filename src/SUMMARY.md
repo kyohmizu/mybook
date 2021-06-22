@@ -1,6 +1,7 @@
 - Kubernetes
   - [General](k8s/general.md)
   - [Ingress](k8s/ingress.md)
+  - [Krew](k8s/krew.md)
   - [Security](k8s/security.md)
   - [Helm](k8s/helm.md)
   - [Tips](k8s/tips.md)
@@ -27,6 +28,8 @@
   - [References](terraform/references.md)
 - GCP
   - [General](gcp/general.md)
+  - [Commands](gcp/command.md)
+  - [Load Balancer](gcp/lb.md)
   - [Cloud Run](gcp/cloudrun.md)
   - [Security Logging](gcp/security_logging.md)
   - [References](gcp/references.md)

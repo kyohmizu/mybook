@@ -30,8 +30,6 @@ https://github.com/kvaps/kubectl-node-shell
 
 https://github.com/weaveworks-experiments/kspan
 
-https://github.com/kubernetes-sigs/krew-index
-
 https://github.com/loft-sh/vcluster
 
 https://github.com/fluxcd/flagger

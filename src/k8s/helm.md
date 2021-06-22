@@ -11,6 +11,12 @@
   - https://github.com/helm/helm-2to3
 - https://itnext.io/breaking-changes-in-helm-3-and-how-to-fix-them-39fea23e06ff
 
+```bash
+for value in $(helm list --output json | jq '.Releases[] | .Name' | sed 's/\"//g'); do
+  helm3 2to3 convert ${value}
+done
+```
+
 ### Helmfile
 
 - HelmfileでKubernetesマニフェストやKustomization、Helm Chartなどで構成されるアプリケーションを効率的に管理する
