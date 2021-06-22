@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>References · HonKit</title>
+        <title>Load Balancer · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.20">
@@ -56,8 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="cloudrun.html" />
     
-    <link rel="prev" href="tips.html" />
+    
+    <link rel="prev" href="command.html" />
     
 
     </head>
@@ -268,9 +270,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="general.html">
+        <li class="chapter " data-level="1.4.1" data-path="../linux/general.html">
             
-                <a href="general.html">
+                <a href="../linux/general.html">
             
                     
                     General
@@ -281,9 +283,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="grep.html">
+        <li class="chapter " data-level="1.4.2" data-path="../linux/grep.html">
             
-                <a href="grep.html">
+                <a href="../linux/grep.html">
             
                     
                     grep
@@ -294,9 +296,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="awk.html">
+        <li class="chapter " data-level="1.4.3" data-path="../linux/awk.html">
             
-                <a href="awk.html">
+                <a href="../linux/awk.html">
             
                     
                     awk
@@ -307,9 +309,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="tips.html">
+        <li class="chapter " data-level="1.4.4" data-path="../linux/tips.html">
             
-                <a href="tips.html">
+                <a href="../linux/tips.html">
             
                     
                     Tips
@@ -320,9 +322,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.5" data-path="references.html">
+        <li class="chapter " data-level="1.4.5" data-path="../linux/references.html">
             
-                <a href="references.html">
+                <a href="../linux/references.html">
             
                     
                     References
@@ -513,9 +515,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.8.1" data-path="../gcp/general.html">
+        <li class="chapter " data-level="1.8.1" data-path="general.html">
             
-                <a href="../gcp/general.html">
+                <a href="general.html">
             
                     
                     General
@@ -526,9 +528,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.2" data-path="../gcp/command.html">
+        <li class="chapter " data-level="1.8.2" data-path="command.html">
             
-                <a href="../gcp/command.html">
+                <a href="command.html">
             
                     
                     Commands
@@ -539,9 +541,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.3" data-path="../gcp/lb.html">
+        <li class="chapter active" data-level="1.8.3" data-path="lb.html">
             
-                <a href="../gcp/lb.html">
+                <a href="lb.html">
             
                     
                     Load Balancer
@@ -552,9 +554,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.4" data-path="../gcp/cloudrun.html">
+        <li class="chapter " data-level="1.8.4" data-path="cloudrun.html">
             
-                <a href="../gcp/cloudrun.html">
+                <a href="cloudrun.html">
             
                     
                     Cloud Run
@@ -565,9 +567,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.5" data-path="../gcp/security_logging.html">
+        <li class="chapter " data-level="1.8.5" data-path="security_logging.html">
             
-                <a href="../gcp/security_logging.html">
+                <a href="security_logging.html">
             
                     
                     Security Logging
@@ -578,9 +580,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8.6" data-path="../gcp/references.html">
+        <li class="chapter " data-level="1.8.6" data-path="references.html">
             
-                <a href="../gcp/references.html">
+                <a href="references.html">
             
                     
                     References
@@ -781,7 +783,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >References</a>
+        <a href=".." >Load Balancer</a>
     </h1>
 </div>
 
@@ -796,7 +798,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="references">References</h1>
+                                <h1 id="ロードバランサ">ロードバランサ</h1>
+<h3 id="ssl-証明書">SSL 証明書</h3>
+<p><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/managed-certs" target="_blank">Using Google-managed SSL certificates</a></p>
+<h3 id="参考">参考</h3>
+<p><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/ingress-multi-ssl" target="_blank">Using multiple SSL certificates in HTTPS load balancing with Ingress</a></p>
+<p><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/internal-load-balancing" target="_blank">Using an internal TCP/UDP load balancer</a></p>
 
                                 
                                 </section>
@@ -824,10 +831,14 @@
 
             
                 
-                <a href="tips.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Tips">
+                <a href="command.html" class="navigation navigation-prev " aria-label="Previous page: Commands">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="cloudrun.html" class="navigation navigation-next " aria-label="Next page: Cloud Run">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -836,7 +847,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"References","level":"1.4.5","depth":2,"next":{"title":"Git","level":"1.5","depth":1,"ref":"","articles":[{"title":"General","level":"1.5.1","depth":2,"path":"git/general.md","ref":"git/general.md","articles":[]},{"title":"Tips","level":"1.5.2","depth":2,"path":"git/tips.md","ref":"git/tips.md","articles":[]},{"title":"References","level":"1.5.3","depth":2,"path":"git/references.md","ref":"git/references.md","articles":[]}]},"previous":{"title":"Tips","level":"1.4.4","depth":2,"path":"linux/tips.md","ref":"linux/tips.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"linux/references.md","mtime":"2021-06-22T08:14:10.263Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-22T08:14:24.380Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Load Balancer","level":"1.8.3","depth":2,"next":{"title":"Cloud Run","level":"1.8.4","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"previous":{"title":"Commands","level":"1.8.2","depth":2,"path":"gcp/command.md","ref":"gcp/command.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/lb.md","mtime":"2021-06-22T08:14:10.259Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-22T08:14:24.380Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
