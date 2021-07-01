@@ -1,13 +1,17 @@
-# Security Logging
+# Logging
 
-## Access Transparency Logs (アクセスの透明性ログ)
+
+### クエリ
+
+https://cloud.google.com/logging/docs/view/query-library
+### Access Transparency Logs (アクセスの透明性ログ)
 
 [https://cloud.google.com/logging/docs/audit/access-transparency-overview](https://cloud.google.com/logging/docs/audit/access-transparency-overview)
 
 - 「アクセスの透明性ログには、Google の担当者がお客様のコンテンツにアクセスした際に行った操作が記録されます。」
 - 一定のサポートレベルが必要
 
-## Audit Logs (監査ログ)
+### Audit Logs (監査ログ)
 
 [https://cloud.google.com/logging/docs/audit](https://cloud.google.com/logging/docs/audit)
 
@@ -21,8 +25,11 @@
 - IAM & Admin - Audit Logs でデータアクセス監査ログの種類を設定
     - Admin Write は必須
     - ユーザーごとにログを出力しないようにもできる
+- 除外設定
+  - ログクエリを使用する
+  - https://cloud.google.com/logging/docs/exclusions
 
-## ログ転送
+### ログ転送
 
 [https://cloud.google.com/logging/docs/routing/overview](https://cloud.google.com/logging/docs/routing/overview)
 

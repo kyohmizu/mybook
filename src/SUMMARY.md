@@ -1,6 +1,7 @@
 - Kubernetes
   - [General](k8s/general.md)
   - [Ingress](k8s/ingress.md)
+  - [External Secrets](k8s/external-secrets.md)
   - [Krew](k8s/krew.md)
   - [Security](k8s/security.md)
   - [Helm](k8s/helm.md)
@@ -25,6 +26,8 @@
   - [References](golang/references.md)
 - Terraform
   - [General](terraform/general.md)
+  - [Functions](terraform/functions.md)
+  - [Tips](terraform/tips.md)
   - [References](terraform/references.md)
 - GCP
   - [General](gcp/general.md)
