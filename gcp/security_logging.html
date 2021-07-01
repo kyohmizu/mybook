@@ -141,7 +141,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../k8s/krew.html">
+        <li class="chapter " data-level="1.2.3" data-path="../k8s/external-secrets.html">
+            
+                <a href="../k8s/external-secrets.html">
+            
+                    
+                    External Secrets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../k8s/krew.html">
             
                 <a href="../k8s/krew.html">
             
@@ -154,7 +167,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="../k8s/security.html">
+        <li class="chapter " data-level="1.2.5" data-path="../k8s/security.html">
             
                 <a href="../k8s/security.html">
             
@@ -167,7 +180,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="../k8s/helm.html">
+        <li class="chapter " data-level="1.2.6" data-path="../k8s/helm.html">
             
                 <a href="../k8s/helm.html">
             
@@ -180,7 +193,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="../k8s/tips.html">
+        <li class="chapter " data-level="1.2.7" data-path="../k8s/tips.html">
             
                 <a href="../k8s/tips.html">
             
@@ -193,7 +206,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.7" data-path="../k8s/references.html">
+        <li class="chapter " data-level="1.2.8" data-path="../k8s/references.html">
             
                 <a href="../k8s/references.html">
             
@@ -483,7 +496,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="../terraform/references.html">
+        <li class="chapter " data-level="1.7.2" data-path="../terraform/functions.html">
+            
+                <a href="../terraform/functions.html">
+            
+                    
+                    Functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../terraform/tips.html">
+            
+                <a href="../terraform/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../terraform/references.html">
             
                 <a href="../terraform/references.html">
             
@@ -798,14 +837,16 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="security-logging">Security Logging</h1>
-<h2 id="access-transparency-logs-アクセスの透明性ログ">Access Transparency Logs (アクセスの透明性ログ)</h2>
+                                <h1 id="logging">Logging</h1>
+<h3 id="クエリ">クエリ</h3>
+<p><a href="https://cloud.google.com/logging/docs/view/query-library" target="_blank">https://cloud.google.com/logging/docs/view/query-library</a></p>
+<h3 id="access-transparency-logs-アクセスの透明性ログ">Access Transparency Logs (アクセスの透明性ログ)</h3>
 <p><a href="https://cloud.google.com/logging/docs/audit/access-transparency-overview" target="_blank">https://cloud.google.com/logging/docs/audit/access-transparency-overview</a></p>
 <ul>
 <li>「アクセスの透明性ログには、Google の担当者がお客様のコンテンツにアクセスした際に行った操作が記録されます。」</li>
 <li>一定のサポートレベルが必要</li>
 </ul>
-<h2 id="audit-logs-監査ログ">Audit Logs (監査ログ)</h2>
+<h3 id="audit-logs-監査ログ">Audit Logs (監査ログ)</h3>
 <p><a href="https://cloud.google.com/logging/docs/audit" target="_blank">https://cloud.google.com/logging/docs/audit</a></p>
 <ul>
 <li>監査ログの種類<ul>
@@ -824,8 +865,13 @@
 <li>ユーザーごとにログを出力しないようにもできる</li>
 </ul>
 </li>
+<li>除外設定<ul>
+<li>ログクエリを使用する</li>
+<li><a href="https://cloud.google.com/logging/docs/exclusions" target="_blank">https://cloud.google.com/logging/docs/exclusions</a></li>
 </ul>
-<h2 id="ログ転送">ログ転送</h2>
+</li>
+</ul>
+<h3 id="ログ転送">ログ転送</h3>
 <p><a href="https://cloud.google.com/logging/docs/routing/overview" target="_blank">https://cloud.google.com/logging/docs/routing/overview</a></p>
 <p><a href="https://cloud.google.com/logging/docs/export/configure_export_v2" target="_blank">https://cloud.google.com/logging/docs/export/configure_export_v2</a></p>
 <ul>
@@ -908,7 +954,7 @@ resource &quot;google_project_iam_member&quot; &quot;log-writer&quot; {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Security Logging","level":"1.8.5","depth":2,"next":{"title":"References","level":"1.8.6","depth":2,"path":"gcp/references.md","ref":"gcp/references.md","articles":[]},"previous":{"title":"Cloud Run","level":"1.8.4","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/security_logging.md","mtime":"2021-06-22T08:14:10.259Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-22T08:14:24.380Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Security Logging","level":"1.8.5","depth":2,"next":{"title":"References","level":"1.8.6","depth":2,"path":"gcp/references.md","ref":"gcp/references.md","articles":[]},"previous":{"title":"Cloud Run","level":"1.8.4","depth":2,"path":"gcp/cloudrun.md","ref":"gcp/cloudrun.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gcp/security_logging.md","mtime":"2021-07-01T11:11:11.301Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-07-01T11:11:24.203Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
