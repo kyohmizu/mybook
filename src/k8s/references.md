@@ -36,6 +36,14 @@ https://github.com/fluxcd/flagger
 
 https://github.com/tstromberg/time-to-k8s
 
+https://github.com/GoogleCloudPlatform/k8s-config-connector
+
+https://github.com/litmuschaos/litmus
+
+https://github.com/kuberhealthy/kuberhealthy
+
+https://github.com/cncf/toc
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)
@@ -43,8 +51,6 @@ https://github.com/tstromberg/time-to-k8s
 [Kubernetes Overview Diagrams](https://brennerm.github.io/posts/kubernetes-overview-diagrams.html)
 
 [yq コマンドで Kubernetes の YAML を操作する](https://yokaze.github.io/2021/04/17/)
-
-[styra - OPA Policy Authoring](https://academy.styra.com/courses/opa-rego)
 
 [Kubernetes 専門家として知るべき 47 のこと](https://ymmt.hatenablog.com/entry/k8s-things)
 

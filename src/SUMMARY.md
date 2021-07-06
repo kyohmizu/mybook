@@ -3,6 +3,7 @@
   - [Ingress](k8s/ingress.md)
   - [External Secrets](k8s/external-secrets.md)
   - [Krew](k8s/krew.md)
+  - [Policy](k8s/policy.md)
   - [Security](k8s/security.md)
   - [Helm](k8s/helm.md)
   - [Tips](k8s/tips.md)
@@ -41,6 +42,9 @@
   - [Commands](aws/command.md)
   - [Switch Role](aws/switch-role.md)
   - [References](aws/references.md)
+- Network
+  - [DNS](network/dns.md)
+  - [References](network/references.md)
 - Security
   - [General](security/general.md)
   - [CVE](security/cve.md)

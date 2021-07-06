@@ -14,7 +14,15 @@ https://cve.mitre.org/cve/
 
 [IPA - 共通脆弱性タイプ一覧CWE概説](https://www.ipa.go.jp/security/vuln/CWE.html)
 
-### 
+### 脆弱性調査ログ
+
+- ISC DHCP
+  - [ISC's Software Support Policy and Version Numbering](https://kb.isc.org/docs/aa-00896)
+- curl
+  - https://stackoverflow.com/questions/4976971/compiling-php-with-curl-where-is-curl-installed
+- named (BIND)
+  - /etc/named.conf
+
 
 ### Tips
 
