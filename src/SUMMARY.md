@@ -15,6 +15,7 @@
   - [General](linux/general.md)
   - [grep](linux/grep.md)
   - [awk](linux/awk.md)
+  - [zsh](linux/zsh.md)
   - [Tips](linux/tips.md)
   - [References](linux/references.md)
 - Git
@@ -41,6 +42,7 @@
   - [General](aws/general.md)
   - [Commands](aws/command.md)
   - [Switch Role](aws/switch-role.md)
+  - [Amazon Inspector](aws/inspector.md)
   - [References](aws/references.md)
 - Network
   - [DNS](network/dns.md)
@@ -49,5 +51,11 @@
   - [General](security/general.md)
   - [CVE](security/cve.md)
   - [CVSS](security/cvss.md)
+  - [マルウェア](security/malware.md)
+  - [ペンテスト](security/pentest.md)
   - [MITRE ATT&CK](security/mitre-attck.md)
+  - [MITRE D3FEND](security/mitre-d3fend.md)
+  - [用語集](security/terms.md)
   - [References](security/references.md)
+- Programming
+  - [コンテスト](programming/contests.md)

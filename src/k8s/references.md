@@ -44,6 +44,8 @@ https://github.com/kuberhealthy/kuberhealthy
 
 https://github.com/cncf/toc
 
+https://github.com/awslabs/karpenter
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

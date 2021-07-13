@@ -25,3 +25,7 @@ $ sed -n 10p file
 ```bash
 $ [command] 2>/dev/null
 ```
+
+### カラー
+
+https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg

@@ -4,6 +4,7 @@
 
 https://nvd.nist.gov/vuln-metrics/cvss
 
+https://www.first.org/cvss/specification-document
 
 ### CVSS Calculator
 
