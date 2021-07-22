@@ -2,6 +2,7 @@
   - [General](k8s/general.md)
   - [Ingress](k8s/ingress.md)
   - [External Secrets](k8s/external-secrets.md)
+  - [Secret Store CSI Driver](k8s/secret-store-csi-driver.md)
   - [Krew](k8s/krew.md)
   - [Policy](k8s/policy.md)
   - [Security](k8s/security.md)
@@ -35,6 +36,7 @@
   - [General](gcp/general.md)
   - [Commands](gcp/command.md)
   - [Load Balancer](gcp/lb.md)
+  - [TLS for Internal Ingress](gcp/cert.md)
   - [Cloud Run](gcp/cloudrun.md)
   - [Security Logging](gcp/security_logging.md)
   - [References](gcp/references.md)
@@ -55,7 +57,14 @@
   - [ペンテスト](security/pentest.md)
   - [MITRE ATT&CK](security/mitre-attck.md)
   - [MITRE D3FEND](security/mitre-d3fend.md)
+  - [CEH](security/ceh.md)
   - [用語集](security/terms.md)
   - [References](security/references.md)
 - Programming
   - [コンテスト](programming/contests.md)
+- Computer Science
+  - [References](cs/references.md)
+- SQL
+  - [References](sql/references.md)
+- VSCode
+  - [Tips](vscode/tips.md)

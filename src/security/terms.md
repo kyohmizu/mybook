@@ -55,3 +55,8 @@
 
 - Data Loss Prevention
 - https://cybersecurity-jp.com/column/35881
+
+### TLP
+
+- Traffic Light Protocol
+- https://news.mynavi.jp/article/20200819-1234644/

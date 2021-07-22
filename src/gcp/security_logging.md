@@ -28,6 +28,8 @@ https://cloud.google.com/logging/docs/view/query-library
 - 除外設定
   - ログクエリを使用する
   - https://cloud.google.com/logging/docs/exclusions
+- ログのコピー
+  - https://cloud.google.com/logging/docs/routing/copy-logs
 
 ### ログ転送
 

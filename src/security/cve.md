@@ -45,6 +45,20 @@ yum list installed
   - https://superuser.com/questions/1282434/how-to-find-out-the-systemd-version-on-raspbian
 
 
+### CPE
+
+https://nvd.nist.gov/products
+
+https://www.ipa.go.jp/security/vuln/CPE.html
+
+```txt
+# CPE 2.2
+cpe:/a:kubernetes:kubernetes
+
+# CPE 2.3
+cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
+```
+
 ### Tips
 
 - Candidate(候補) ステータスは廃止されたらしい
