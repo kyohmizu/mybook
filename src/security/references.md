@@ -2,6 +2,18 @@
 
 https://superuser.com/questions/188058/which-ports-are-considered-unsafe-by-chrome
 
+### OWASP
+
+[OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+### Have I been pwned
+
+https://haveibeenpwned.com/
+
+### Web サーバーの情報
+
+https://news.netcraft.com/
+
 ### news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)
@@ -20,4 +32,4 @@ https://superuser.com/questions/188058/which-ports-are-considered-unsafe-by-chro
 
 [(n)inja csirt](https://csirt.ninja/)
 
-[exploit database](https://www.exploit-db.com/)
+[AMIYA SECU LABO](https://www.amiya.co.jp/column/)
