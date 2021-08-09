@@ -6,6 +6,8 @@ https://nvd.nist.gov/vuln
 
 https://cve.mitre.org/cve/
 
+https://www.securityfocus.com/
+
 ### CVE とは
 
 [IPA - 共通脆弱性識別子CVE概説](https://www.ipa.go.jp/security/vuln/CVE.html)
@@ -43,7 +45,6 @@ yum list installed
   - [パッチ情報](https://www.python.org/downloads/)
 - systemd
   - https://superuser.com/questions/1282434/how-to-find-out-the-systemd-version-on-raspbian
-
 
 ### CPE
 

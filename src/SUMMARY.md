@@ -61,6 +61,7 @@
   - [CVSS](security/cvss.md)
   - [マルウェア](security/malware.md)
   - [ペンテスト](security/pentest.md)
+  - [CTF](security/ctf.md)
   - [MITRE ATT&CK](security/mitre-attck.md)
   - [MITRE D3FEND](security/mitre-d3fend.md)
   - [Burp Suite](security/burp.md)

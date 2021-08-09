@@ -34,6 +34,14 @@ https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 
 https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac
 
+```bash
+nmap 127.0.0.1
+
+netstat -vanp tcp | grep [PORT]
+
+sudo lsof -i :[PORT]
+```
+
 ### ビープ音を消す
 
 ```bash
@@ -54,3 +62,5 @@ echo "blacklist pcspkr" | sudo tee -a /etc/modprobe.d/blacklist
 ```bash
 apt install ibus-anthy
 ```
+
+https://askubuntu.com/questions/930493/anthy-japanese-is-using-japanese-keyboard-layout-how-do-i-use-us

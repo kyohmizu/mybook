@@ -33,3 +33,11 @@ https://news.netcraft.com/
 [(n)inja csirt](https://csirt.ninja/)
 
 [AMIYA SECU LABO](https://www.amiya.co.jp/column/)
+
+[wizSafe Security Signal](https://wizsafe.iij.ad.jp/)
+
+[packet storm](https://packetstormsecurity.com/)
+
+[TT Malware Log](https://malware-log.hatenablog.com/)
+
+[SANS Cyber Security Blog](https://www.sans.org/blog/)
