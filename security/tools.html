@@ -981,7 +981,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.6" data-path="mitre-attck.html">
+        <li class="chapter " data-level="1.12.6" data-path="ctf.html">
+            
+                <a href="ctf.html">
+            
+                    
+                    CTF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.7" data-path="mitre-attck.html">
             
                 <a href="mitre-attck.html">
             
@@ -994,7 +1007,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.7" data-path="mitre-d3fend.html">
+        <li class="chapter " data-level="1.12.8" data-path="mitre-d3fend.html">
             
                 <a href="mitre-d3fend.html">
             
@@ -1007,7 +1020,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.8" data-path="burp.html">
+        <li class="chapter " data-level="1.12.9" data-path="burp.html">
             
                 <a href="burp.html">
             
@@ -1020,7 +1033,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.12.9" data-path="tools.html">
+        <li class="chapter active" data-level="1.12.10" data-path="tools.html">
             
                 <a href="tools.html">
             
@@ -1033,7 +1046,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.10" data-path="ipa-sc.html">
+        <li class="chapter " data-level="1.12.11" data-path="ipa-sc.html">
             
                 <a href="ipa-sc.html">
             
@@ -1046,7 +1059,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.11" data-path="ceh.html">
+        <li class="chapter " data-level="1.12.12" data-path="ceh.html">
             
                 <a href="ceh.html">
             
@@ -1059,7 +1072,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.12" data-path="terms.html">
+        <li class="chapter " data-level="1.12.13" data-path="terms.html">
             
                 <a href="terms.html">
             
@@ -1072,7 +1085,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.13" data-path="references.html">
+        <li class="chapter " data-level="1.12.14" data-path="references.html">
             
                 <a href="references.html">
             
@@ -1278,15 +1291,72 @@
                                 
                                 <h1 id="tools">Tools</h1>
 <h3 id="nmap">nmap</h3>
-<p>ポートスキャン</p>
+<p><a href="https://nmap.org/" target="_blank">https://nmap.org/</a></p>
 <p><a href="https://orebibou.com/ja/home/201506/20150603_001/" target="_blank">https://orebibou.com/ja/home/201506/20150603_001/</a></p>
+<p>スクリプト：/usr/share/nmap/scripts</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># 頻出ポートの一覧 (上位100)</span>
+nmap --top-ports 100 -oG - -v -sSU
+
+<span class="hljs-comment"># ポートスキャンしない：-Pn</span>
+<span class="hljs-comment"># 名前解決しない：-n</span>
+<span class="hljs-comment"># TCP -sT</span>
+<span class="hljs-comment"># SYN -sS</span>
+<span class="hljs-comment"># UDP -sU</span>
+
+<span class="hljs-comment"># cheat sheet</span>
+curl cheat.sh/nmap
+</code></pre>
+<h3 id="ssh">ssh</h3>
+<p>リモートホストにコピー</p>
+<pre><code class="lang-bash">cat file1 | ssh -f user@server <span class="hljs-string">&apos;cd $HOME; cat &gt; file1&apos;</span>
+</code></pre>
+<p>踏み台設定</p>
+<pre><code class="lang-txt">cat ~/.ssh/config
+Host host2
+     ProxyCommand ssh host1 nc %h %p
+</code></pre>
+<h3 id="tor-browser">Tor Browser</h3>
+<p><a href="https://www.torproject.org/" target="_blank">https://www.torproject.org/</a></p>
+<p><a href="https://www.alphr.com/technology/1002667/how-to-access-the-dark-web-what-is-tor-and-how-do-i-use-it/#:~:text=Tor%20is%20an%20anonymity%20network,re%20logged%20into%20a%20website." target="_blank">How To Access The Dark Web: What Is Tor And How Do I Access Dark Websites?</a></p>
+<p><a href="https://www.vpnmentor.com/blog/tor-browser-work-relate-using-vpn/" target="_blank">How To Use Tor Browser: Everything You MUST Know in 2021</a></p>
+<p><a href="https://cybernews.com/what-is-vpn/tor-over-vpn/" target="_blank">Tor over VPN: Is it useful if you’re not a whistleblower?</a></p>
+<h3 id="proxychains--tor">proxychains &amp; tor</h3>
+<p><a href="https://linuxhint.com/proxychains-tutorial/" target="_blank">https://linuxhint.com/proxychains-tutorial/</a></p>
+<p><a href="https://www.geeksforgeeks.org/how-to-setup-proxychains-in-linux-without-any-errors/" target="_blank">https://www.geeksforgeeks.org/how-to-setup-proxychains-in-linux-without-any-errors/</a></p>
+<h3 id="password">password</h3>
+<ul>
+<li>辞書ファイル、パスワードリスト<ul>
+<li><a href="https://download.openwall.net/pub/wordlists/" target="_blank">https://download.openwall.net/pub/wordlists/</a></li>
+</ul>
+</li>
+<li>password cracker<ul>
+<li><a href="https://www.openwall.com/john/" target="_blank">https://www.openwall.com/john/</a></li>
+<li><a href="https://github.com/vanhauser-thc/thc-hydra" target="_blank">https://github.com/vanhauser-thc/thc-hydra</a></li>
+</ul>
+</li>
+<li>password recovery<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cain_and_Abel_(software" target="_blank">https://en.wikipedia.org/wiki/Cain_and_Abel_(software</a>)</li>
+</ul>
+</li>
+</ul>
+<h3 id="log-wipers">log wipers</h3>
+<p><a href="https://packetstormsecurity.com/UNIX/penetration/log-wipers" target="_blank">https://packetstormsecurity.com/UNIX/penetration/log-wipers</a></p>
+<pre><code class="lang-bash"><span class="hljs-comment"># current login users (utmp)</span>
+who
+w
+
+<span class="hljs-comment"># login users info (wtmp)</span>
+last
+ac -p
+
+<span class="hljs-comment"># last login users (lastlog)</span>
+lastlog
+</code></pre>
 <h3 id="services--apps">Services &amp; Apps</h3>
 <p><a href="https://www.crowdstrike.com/" target="_blank">https://www.crowdstrike.com/</a></p>
 <p><a href="https://chronicle.security/" target="_blank">https://chronicle.security/</a></p>
 <p><a href="https://www.fireeye.com/" target="_blank">https://www.fireeye.com/</a></p>
 <p><a href="https://www.shodan.io/" target="_blank">https://www.shodan.io/</a></p>
-<p><a href="https://www.torproject.org/" target="_blank">https://www.torproject.org/</a></p>
-<p><a href="https://www.virustotal.com/gui/" target="_blank">https://www.virustotal.com/gui/</a></p>
 <p><a href="https://github.com/optiv/ScareCrow" target="_blank">https://github.com/optiv/ScareCrow</a></p>
 
                                 
@@ -1331,7 +1401,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Tools","level":"1.12.9","depth":2,"next":{"title":"情報処理安全確保支援士","level":"1.12.10","depth":2,"path":"security/ipa-sc.md","ref":"security/ipa-sc.md","articles":[]},"previous":{"title":"Burp Suite","level":"1.12.8","depth":2,"path":"security/burp.md","ref":"security/burp.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/tools.md","mtime":"2021-07-30T11:55:23.147Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-07-30T11:55:35.220Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Tools","level":"1.12.10","depth":2,"next":{"title":"情報処理安全確保支援士","level":"1.12.11","depth":2,"path":"security/ipa-sc.md","ref":"security/ipa-sc.md","articles":[]},"previous":{"title":"Burp Suite","level":"1.12.9","depth":2,"path":"security/burp.md","ref":"security/burp.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/tools.md","mtime":"2021-08-09T17:52:45.138Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-08-09T17:52:57.810Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
