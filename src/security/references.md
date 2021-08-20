@@ -14,6 +14,12 @@ https://haveibeenpwned.com/
 
 https://news.netcraft.com/
 
+### ダークウェブ
+
+https://www.ipa.go.jp/files/000080167.pdf
+
+https://www.webhostingsecretrevealed.net/ja/blog/security/dark-web-websites-onion-links/
+
 ### news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)
@@ -41,3 +47,7 @@ https://news.netcraft.com/
 [TT Malware Log](https://malware-log.hatenablog.com/)
 
 [SANS Cyber Security Blog](https://www.sans.org/blog/)
+
+[Black Hat Go](https://www.oreilly.com/library/view/black-hat-go/9781098122645/)
+
+[インシデント損害額調査レポート 2021](https://www.jnsa.org/result/incidentdamage/data/incidentdamage_20210818.pdf)

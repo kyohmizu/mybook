@@ -15,3 +15,7 @@ module example.com/go-mod-sample
 
 go 1.16
 ```
+
+### ローカルパッケージ
+
+[go mod でのローカルパッケージの扱いがどうなるか試してみた その２ / Handling local packages with go mod Part 2](https://memo.silverpigeon.jp/handling-local-packages-with-go-mod-2/)
