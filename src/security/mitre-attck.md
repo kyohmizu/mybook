@@ -25,6 +25,11 @@ https://atomicredteam.io/testing
 
 https://car.mitre.org/
 
+### Technique
+
+- Space After File Name
+  - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.006/T1036.006.md
+
 ### 参考
 
 https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0

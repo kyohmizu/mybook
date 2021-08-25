@@ -31,6 +31,9 @@
 - Golang
   - [General](golang/general.md)
   - [Modules](golang/modules.md)
+  - [WASM](golang/wasm.md)
+  - [Goland](golang/goland.md)
+  - [Tools](golang/tools.md)
   - [References](golang/references.md)
 - Terraform
   - [General](terraform/general.md)

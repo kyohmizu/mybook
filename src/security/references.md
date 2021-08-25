@@ -20,6 +20,10 @@ https://www.ipa.go.jp/files/000080167.pdf
 
 https://www.webhostingsecretrevealed.net/ja/blog/security/dark-web-websites-onion-links/
 
+### OSS
+
+https://openssf.org/
+
 ### news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)
