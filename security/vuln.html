@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>CVE · HonKit</title>
+        <title>Vulnerability · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.20">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="cvss.html" />
+    <link rel="next" href="malware.html" />
     
     
-    <link rel="prev" href="general.html" />
+    <link rel="prev" href="cvss.html" />
     
 
     </head>
@@ -1026,7 +1026,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.13.2" data-path="cve.html">
+        <li class="chapter " data-level="1.13.2" data-path="cve.html">
             
                 <a href="cve.html">
             
@@ -1052,7 +1052,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.4" data-path="vuln.html">
+        <li class="chapter active" data-level="1.13.4" data-path="vuln.html">
             
                 <a href="vuln.html">
             
@@ -1410,7 +1410,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >CVE</a>
+        <a href=".." >Vulnerability</a>
     </h1>
 </div>
 
@@ -1425,77 +1425,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="cve">CVE</h1>
-<h3 id="data-source">Data Source</h3>
-<p><a href="https://nvd.nist.gov/vuln" target="_blank">https://nvd.nist.gov/vuln</a></p>
-<p><a href="https://cve.mitre.org/cve/" target="_blank">https://cve.mitre.org/cve/</a></p>
-<p><a href="https://www.securityfocus.com/" target="_blank">https://www.securityfocus.com/</a></p>
-<p><a href="https://www.cvedetails.com/" target="_blank">https://www.cvedetails.com/</a></p>
-<h3 id="cve-とは">CVE とは</h3>
-<p><a href="https://www.ipa.go.jp/security/vuln/CVE.html" target="_blank">IPA - 共通脆弱性識別子CVE概説</a></p>
-<h3 id="cwe-とは">CWE とは</h3>
-<p><a href="https://www.ipa.go.jp/security/vuln/CWE.html" target="_blank">IPA - 共通脆弱性タイプ一覧CWE概説</a></p>
-<h3 id="脆弱性調査ログ">脆弱性調査ログ</h3>
-<pre><code># インストールされているか一覧でチェック
-yum list installed
-</code></pre><ul>
-<li>Amazon Linux Security Advisory<ul>
-<li><a href="https://alas.aws.amazon.com/alas2.html" target="_blank">https://alas.aws.amazon.com/alas2.html</a></li>
-</ul>
-</li>
-<li>ISC DHCP<ul>
-<li><a href="https://kb.isc.org/docs/aa-00896" target="_blank">ISC&apos;s Software Support Policy and Version Numbering</a></li>
-<li><a href="https://www.brennan.id.au/10-DHCP_Server.html" target="_blank">https://www.brennan.id.au/10-DHCP_Server.html</a></li>
-</ul>
-</li>
-<li>curl<ul>
-<li><a href="https://stackoverflow.com/questions/4976971/compiling-php-with-curl-where-is-curl-installed" target="_blank">https://stackoverflow.com/questions/4976971/compiling-php-with-curl-where-is-curl-installed</a></li>
-</ul>
-</li>
-<li>named (BIND)<ul>
-<li>/etc/named.conf</li>
-</ul>
-</li>
-<li>glibc<ul>
-<li><a href="https://www.softel.co.jp/blogs/tech/archives/5282" target="_blank">【Linux】glibcのバージョンを確認する方法</a></li>
-</ul>
-</li>
-<li>Glib<ul>
-<li><a href="https://gitlab.gnome.org/GNOME/glib/-/blob/main/INSTALL.in" target="_blank">https://gitlab.gnome.org/GNOME/glib/-/blob/main/INSTALL.in</a></li>
-</ul>
-</li>
-<li>libxml2<ul>
-<li><a href="https://www.unix.com/unix-for-dummies-questions-and-answers/150326-version-libxml2.html" target="_blank">https://www.unix.com/unix-for-dummies-questions-and-answers/150326-version-libxml2.html</a></li>
-<li><a href="https://stackoverflow.com/questions/48756209/how-are-you-supposed-to-know-what-library-names-are" target="_blank">https://stackoverflow.com/questions/48756209/how-are-you-supposed-to-know-what-library-names-are</a></li>
-</ul>
-</li>
-<li>nss<ul>
-<li><a href="https://access.redhat.com/solutions/1227863" target="_blank">https://access.redhat.com/solutions/1227863</a></li>
-</ul>
-</li>
-<li>python<ul>
-<li><a href="https://www.python.org/downloads/" target="_blank">パッチ情報</a></li>
-</ul>
-</li>
-<li>systemd<ul>
-<li><a href="https://superuser.com/questions/1282434/how-to-find-out-the-systemd-version-on-raspbian" target="_blank">https://superuser.com/questions/1282434/how-to-find-out-the-systemd-version-on-raspbian</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="cpe">CPE</h3>
-<p><a href="https://nvd.nist.gov/products" target="_blank">https://nvd.nist.gov/products</a></p>
-<p><a href="https://www.ipa.go.jp/security/vuln/CPE.html" target="_blank">https://www.ipa.go.jp/security/vuln/CPE.html</a></p>
-<pre><code class="lang-txt"># CPE 2.2
-cpe:/a:kubernetes:kubernetes
-
-# CPE 2.3
-cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
-</code></pre>
-<h3 id="tips">Tips</h3>
-<ul>
-<li>Candidate(候補) ステータスは廃止されたらしい</li>
-<li>Phase は今では常に Assigned になる</li>
-</ul>
+                                <h1 id="vulnerability">Vulnerability</h1>
+<h3 id="xss">XSS</h3>
+<p><a href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet" target="_blank">https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</a></p>
 
                                 
                                 </section>
@@ -1523,12 +1455,12 @@ cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
 
             
                 
-                <a href="general.html" class="navigation navigation-prev " aria-label="Previous page: General">
+                <a href="cvss.html" class="navigation navigation-prev " aria-label="Previous page: CVSS">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="cvss.html" class="navigation navigation-next " aria-label="Next page: CVSS">
+                <a href="malware.html" class="navigation navigation-next " aria-label="Next page: マルウェア">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1539,7 +1471,7 @@ cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CVE","level":"1.13.2","depth":2,"next":{"title":"CVSS","level":"1.13.3","depth":2,"path":"security/cvss.md","ref":"security/cvss.md","articles":[]},"previous":{"title":"General","level":"1.13.1","depth":2,"path":"security/general.md","ref":"security/general.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/cve.md","mtime":"2021-09-02T17:59:38.212Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-09-02T17:59:51.721Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Vulnerability","level":"1.13.4","depth":2,"next":{"title":"マルウェア","level":"1.13.5","depth":2,"path":"security/malware.md","ref":"security/malware.md","articles":[]},"previous":{"title":"CVSS","level":"1.13.3","depth":2,"path":"security/cvss.md","ref":"security/cvss.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/vuln.md","mtime":"2021-09-02T17:59:38.212Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-09-02T17:59:51.721Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
