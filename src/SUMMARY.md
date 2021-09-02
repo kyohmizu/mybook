@@ -66,6 +66,7 @@
   - [General](security/general.md)
   - [CVE](security/cve.md)
   - [CVSS](security/cvss.md)
+  - [Vulnerability](security/vuln.md)
   - [マルウェア](security/malware.md)
   - [ペンテスト](security/pentest.md)
   - [CTF](security/ctf.md)

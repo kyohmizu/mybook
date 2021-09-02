@@ -8,6 +8,8 @@ https://cve.mitre.org/cve/
 
 https://www.securityfocus.com/
 
+https://www.cvedetails.com/
+
 ### CVE とは
 
 [IPA - 共通脆弱性識別子CVE概説](https://www.ipa.go.jp/security/vuln/CVE.html)

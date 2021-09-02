@@ -24,6 +24,10 @@ https://www.webhostingsecretrevealed.net/ja/blog/security/dark-web-websites-onio
 
 https://openssf.org/
 
+### Unicode in URLs
+
+https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
+
 ### news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)

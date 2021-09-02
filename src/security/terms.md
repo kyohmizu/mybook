@@ -60,3 +60,8 @@
 
 - Traffic Light Protocol
 - https://news.mynavi.jp/article/20200819-1234644/
+
+### SASE
+
+- Secure Access Service Edge
+- https://cybersecurity-jp.com/column/35849

@@ -95,6 +95,12 @@ https://chronicle.security/
 
 https://www.fireeye.com/
 
+https://www.darktrace.com/
+
+https://www.blackberry.com/
+
+https://www.menlosecurity.com/
+
 https://www.shodan.io/
 
 https://github.com/optiv/ScareCrow
