@@ -36,8 +36,6 @@ https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 
 [ScanNetSecurity](https://scan.netsecurity.ne.jp/)
 
-[インシデントの一覧 - JPCERT](https://blogs.jpcert.or.jp/ja/incident/)
-
 [Security Next](https://www.security-next.com/)
 
 [Google TAG Blogs](https://blog.google/threat-analysis-group/)
@@ -58,4 +56,4 @@ https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 
 [Black Hat Go](https://www.oreilly.com/library/view/black-hat-go/9781098122645/)
 
-[インシデント損害額調査レポート 2021](https://www.jnsa.org/result/incidentdamage/data/incidentdamage_20210818.pdf)
+[IL-CSIRTによるセキュリティインシデントに関する解説 一覧](https://www.intellilink.co.jp/column/security/2021/080200.aspx)

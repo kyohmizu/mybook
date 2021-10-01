@@ -22,6 +22,7 @@
   - [References](linux/references.md)
 - macOS
   - [Kernel](macos/kernel.md)
+  - [System Extensions](macos/sext.md)
   - [Tips](macos/tips.md)
 - Git
   - [General](git/general.md)
@@ -69,6 +70,7 @@
   - [Vulnerability](security/vuln.md)
   - [マルウェア](security/malware.md)
   - [ペンテスト](security/pentest.md)
+  - [Incident](security/incident.md)
   - [CTF](security/ctf.md)
   - [Forensics](security/forensics.md)
   - [Container Security](security/conntainer.md))
