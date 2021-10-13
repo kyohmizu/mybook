@@ -1,5 +1,7 @@
 # References
 
+https://glossary.cncf.io/
+
 ### OSS
 
 https://tutorials.keptn.sh/

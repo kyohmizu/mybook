@@ -26,7 +26,7 @@
   - [Tips](macos/tips.md)
 - Git
   - [General](git/general.md)
-  - [Goland](golang/goland.md)
+  - [GitHub Actions](git/actions.md)
   - [Tips](git/tips.md)
   - [References](git/references.md)
 - Golang
@@ -49,6 +49,7 @@
   - [Cloud Run](gcp/cloudrun.md)
   - [BigQuery](gcp/bigquery.md)
   - [Security Logging](gcp/security_logging.md)
+  - [OIDC](gcp/oidc.md)
   - [References](gcp/references.md)
 - AWS
   - [General](aws/general.md)
@@ -70,6 +71,7 @@
   - [Vulnerability](security/vuln.md)
   - [マルウェア](security/malware.md)
   - [ペンテスト](security/pentest.md)
+  - [Learning](security/learning.md)
   - [Incident](security/incident.md)
   - [CTF](security/ctf.md)
   - [Forensics](security/forensics.md)
@@ -78,6 +80,7 @@
   - [MITRE D3FEND](security/mitre-d3fend.md)
   - [Burp Suite](security/burp.md)
   - [Tools](security/tools.md)
+  - [WAF](security/waf.md)
   - [情報処理安全確保支援士](security/ipa-sc.md)
   - [CEH](security/ceh.md)
   - [用語集](security/terms.md)

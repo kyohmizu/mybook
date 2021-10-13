@@ -57,3 +57,7 @@ https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 [Black Hat Go](https://www.oreilly.com/library/view/black-hat-go/9781098122645/)
 
 [IL-CSIRTによるセキュリティインシデントに関する解説 一覧](https://www.intellilink.co.jp/column/security/2021/080200.aspx)
+
+[クラウドサービス提供における情報セキュリティ対策ガイドライン（第３版） - 総務省](https://www.soumu.go.jp/main_content/000771515.pdf)
+
+[サイバーセキュリティ・ポータルサイト - NISC](https://security-portal.nisc.go.jp/)
