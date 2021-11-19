@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Vulnerability · HonKit</title>
+        <title>MITRE · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.23">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="malware.html" />
+    <link rel="next" href="killchain.html" />
     
     
-    <link rel="prev" href="cvss.html" />
+    <link rel="prev" href="cti.html" />
     
 
     </head>
@@ -1078,7 +1078,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.13.4" data-path="vuln.html">
+        <li class="chapter " data-level="1.13.4" data-path="vuln.html">
             
                 <a href="vuln.html">
             
@@ -1208,7 +1208,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.14" data-path="mitre.html">
+        <li class="chapter active" data-level="1.13.14" data-path="mitre.html">
             
                 <a href="mitre.html">
             
@@ -1514,7 +1514,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Vulnerability</a>
+        <a href=".." >MITRE</a>
     </h1>
 </div>
 
@@ -1529,14 +1529,41 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="vulnerability">Vulnerability</h1>
-<h3 id="data-source">Data Source</h3>
-<p><a href="https://vulndb.cyberriskanalytics.com/" target="_blank">https://vulndb.cyberriskanalytics.com/</a></p>
-<h3 id="xss">XSS</h3>
-<p><a href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet" target="_blank">https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</a></p>
+                                <h1 id="mitre-attck">MITRE ATT&amp;CK</h1>
+<p><a href="https://attack.mitre.org/" target="_blank">https://attack.mitre.org/</a></p>
+<h3 id="概要">概要</h3>
+<p><a href="https://www.intellilink.co.jp/column/security/2020/060200.aspx" target="_blank">https://www.intellilink.co.jp/column/security/2020/060200.aspx</a></p>
+<h3 id="mitre-attck-の活用">MITRE ATT&amp;CK の活用</h3>
+<p><a href="https://attack.mitre.org/resources/working-with-attack/" target="_blank">https://attack.mitre.org/resources/working-with-attack/</a></p>
+<ul>
+<li>ATT&amp;CK Navigator (<a href="https://mitre-attack.github.io/attack-navigator/" target="_blank">https://mitre-attack.github.io/attack-navigator/</a>)<ul>
+<li>使い方 (<a href="https://www.intellilink.co.jp/column/security/2020/073100.aspx" target="_blank">https://www.intellilink.co.jp/column/security/2020/073100.aspx</a>)</li>
+</ul>
+</li>
+<li>ATT&amp;CK in STIX (<a href="https://github.com/mitre/cti" target="_blank">https://github.com/mitre/cti</a>)<ul>
+<li>pyattck (<a href="https://github.com/swimlane/pyattck" target="_blank">https://github.com/swimlane/pyattck</a>)</li>
+</ul>
+</li>
+</ul>
+<h3 id="攻撃のテスト">攻撃のテスト</h3>
+<p><a href="https://github.com/redcanaryco/atomic-red-team" target="_blank">https://github.com/redcanaryco/atomic-red-team</a></p>
+<p><a href="https://atomicredteam.io/testing" target="_blank">https://atomicredteam.io/testing</a></p>
+<h3 id="mitre-cyber-analytics-repository">MITRE Cyber Analytics Repository</h3>
+<p><a href="https://car.mitre.org/" target="_blank">https://car.mitre.org/</a></p>
+<h3 id="technique">Technique</h3>
+<ul>
+<li>Space After File Name<ul>
+<li><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.006/T1036.006.md" target="_blank">https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.006/T1036.006.md</a></li>
+</ul>
+</li>
+</ul>
 <h3 id="参考">参考</h3>
-<p><a href="https://csirt.ninja/?p=1883" target="_blank">ランサムウェア攻撃者が利用する脆弱性リストメモ - ninja csirt</a></p>
-<p><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank">KNOWN EXPLOITED VULNERABILITIES CATALOG</a></p>
+<p><a href="https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0" target="_blank">https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0</a></p>
+<p><a href="https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf" target="_blank">https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf</a></p>
+<h1 id="mitre-d3fend">MITRE D3FEND</h1>
+<p><a href="https://d3fend.mitre.org/" target="_blank">https://d3fend.mitre.org/</a></p>
+<h1 id="capec">CAPEC</h1>
+<p><a href="https://capec.mitre.org/" target="_blank">https://capec.mitre.org/</a></p>
 
                                 
                                 </section>
@@ -1564,12 +1591,12 @@
 
             
                 
-                <a href="cvss.html" class="navigation navigation-prev " aria-label="Previous page: CVSS">
+                <a href="cti.html" class="navigation navigation-prev " aria-label="Previous page: CTI">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="malware.html" class="navigation navigation-next " aria-label="Next page: マルウェア">
+                <a href="killchain.html" class="navigation navigation-next " aria-label="Next page: Kill Chain">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1580,7 +1607,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Vulnerability","level":"1.13.4","depth":2,"next":{"title":"マルウェア","level":"1.13.5","depth":2,"path":"security/malware.md","ref":"security/malware.md","articles":[]},"previous":{"title":"CVSS","level":"1.13.3","depth":2,"path":"security/cvss.md","ref":"security/cvss.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/vuln.md","mtime":"2021-11-19T03:05:23.556Z","type":"markdown"},"gitbook":{"version":"3.6.23","time":"2021-11-19T03:05:40.815Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"MITRE","level":"1.13.14","depth":2,"next":{"title":"Kill Chain","level":"1.13.15","depth":2,"path":"security/killchain.md","ref":"security/killchain.md","articles":[]},"previous":{"title":"CTI","level":"1.13.13","depth":2,"path":"security/cti.md","ref":"security/cti.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"security/mitre.md","mtime":"2021-11-19T03:05:23.556Z","type":"markdown"},"gitbook":{"version":"3.6.23","time":"2021-11-19T03:05:40.815Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

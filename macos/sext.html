@@ -6,7 +6,7 @@
         <title>System Extensions · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="HonKit 3.6.22">
+        <meta name="generator" content="HonKit 3.6.23">
         
         
         
@@ -1182,12 +1182,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.12" data-path="../security/mitre-attck.html">
+        <li class="chapter " data-level="1.13.12" data-path="../security/phishing.html">
             
-                <a href="../security/mitre-attck.html">
+                <a href="../security/phishing.html">
             
                     
-                    MITRE ATT&CK
+                    Phishing
             
                 </a>
             
@@ -1195,12 +1195,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.13" data-path="../security/mitre-d3fend.html">
+        <li class="chapter " data-level="1.13.13" data-path="../security/cti.html">
             
-                <a href="../security/mitre-d3fend.html">
+                <a href="../security/cti.html">
             
                     
-                    MITRE D3FEND
+                    CTI
             
                 </a>
             
@@ -1208,7 +1208,46 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.14" data-path="../security/burp.html">
+        <li class="chapter " data-level="1.13.14" data-path="../security/mitre.html">
+            
+                <a href="../security/mitre.html">
+            
+                    
+                    MITRE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.15" data-path="../security/killchain.html">
+            
+                <a href="../security/killchain.html">
+            
+                    
+                    Kill Chain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.16" data-path="../security/reports.html">
+            
+                <a href="../security/reports.html">
+            
+                    
+                    Reports
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.17" data-path="../security/burp.html">
             
                 <a href="../security/burp.html">
             
@@ -1221,7 +1260,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.15" data-path="../security/tools.html">
+        <li class="chapter " data-level="1.13.18" data-path="../security/tools.html">
             
                 <a href="../security/tools.html">
             
@@ -1234,7 +1273,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.16" data-path="../security/waf.html">
+        <li class="chapter " data-level="1.13.19" data-path="../security/waf.html">
             
                 <a href="../security/waf.html">
             
@@ -1247,7 +1286,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.17" data-path="../security/ipa-sc.html">
+        <li class="chapter " data-level="1.13.20" data-path="../security/ipa-sc.html">
             
                 <a href="../security/ipa-sc.html">
             
@@ -1260,7 +1299,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.18" data-path="../security/ceh.html">
+        <li class="chapter " data-level="1.13.21" data-path="../security/ceh.html">
             
                 <a href="../security/ceh.html">
             
@@ -1273,7 +1312,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.19" data-path="../security/terms.html">
+        <li class="chapter " data-level="1.13.22" data-path="../security/terms.html">
             
                 <a href="../security/terms.html">
             
@@ -1286,7 +1325,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13.20" data-path="../security/references.html">
+        <li class="chapter " data-level="1.13.23" data-path="../security/references.html">
             
                 <a href="../security/references.html">
             
@@ -1494,9 +1533,33 @@
 <p><a href="https://developer.apple.com/system-extensions/" target="_blank">https://developer.apple.com/system-extensions/</a></p>
 <h3 id="endpoint-security">Endpoint Security</h3>
 <p><a href="https://developer.apple.com/documentation/endpointsecurity" target="_blank">https://developer.apple.com/documentation/endpointsecurity</a></p>
+<ul>
+<li>local 環境でのテスト時に必要な設定<ul>
+<li><a href="https://developer.apple.com/forums/thread/125048" target="_blank">Endpoint security system extension misconfiguration</a></li>
+<li><a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection" target="_blank">https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection</a></li>
+<li><a href="https://www.theiphonewiki.com/wiki/AppleMobileFileIntegrity" target="_blank">https://www.theiphonewiki.com/wiki/AppleMobileFileIntegrity</a></li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-bash"><span class="hljs-comment"># Recovery Mode</span>
+csrutil <span class="hljs-built_in">disable</span>
+
+sudo nvram boot-args=<span class="hljs-string">&quot;amfi_get_out_of_my_way=0x1”
+</span></code></pre>
+<ul>
+<li>環境の復旧<ul>
+<li><a href="https://amp.reddit.com/r/OSXTweaks/comments/fvf85o/how_to_revert_amfi_get_out_of_my_way_changes_of/" target="_blank">https://amp.reddit.com/r/OSXTweaks/comments/fvf85o/how_to_revert_amfi_get_out_of_my_way_changes_of/</a></li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-bash"><span class="hljs-comment"># Recovery Mode</span>
+csrutil <span class="hljs-built_in">enable</span>
+
+sudo nvram boot-args=<span class="hljs-string">&quot;&quot;</span>
+<span class="hljs-comment">#sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true</span>
+</code></pre>
 <h3 id="参考">参考</h3>
 <p><a href="https://knight.sc/reverse%20engineering/2019/08/24/system-extension-internals.html" target="_blank">https://knight.sc/reverse%20engineering/2019/08/24/system-extension-internals.html</a></p>
-<p><a href="https://developer.apple.com/forums/thread/125048" target="_blank">Endpoint security system extension misconfiguration</a></p>
 <p><a href="https://blog.kandji.io/guide-for-apple-it-threat-detection-and-apples-new-endpoint-security-framework" target="_blank">Guide for Apple IT: Threat Detection and Apple’s New EndpointSecurity Framework</a></p>
 
                                 
@@ -1541,7 +1604,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"System Extensions","level":"1.5.2","depth":2,"next":{"title":"Tips","level":"1.5.3","depth":2,"path":"macos/tips.md","ref":"macos/tips.md","articles":[]},"previous":{"title":"Kernel","level":"1.5.1","depth":2,"path":"macos/kernel.md","ref":"macos/kernel.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"macos/sext.md","mtime":"2021-10-13T04:06:10.931Z","type":"markdown"},"gitbook":{"version":"3.6.22","time":"2021-10-13T04:06:23.569Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"System Extensions","level":"1.5.2","depth":2,"next":{"title":"Tips","level":"1.5.3","depth":2,"path":"macos/tips.md","ref":"macos/tips.md","articles":[]},"previous":{"title":"Kernel","level":"1.5.1","depth":2,"path":"macos/kernel.md","ref":"macos/kernel.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"macos/sext.md","mtime":"2021-11-19T03:05:23.552Z","type":"markdown"},"gitbook":{"version":"3.6.23","time":"2021-11-19T03:05:40.815Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
