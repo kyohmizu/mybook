@@ -35,3 +35,11 @@ https://car.mitre.org/
 https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0
 
 https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf
+
+# MITRE D3FEND
+
+https://d3fend.mitre.org/
+
+# CAPEC
+
+https://capec.mitre.org/

@@ -6,6 +6,10 @@
 $ kubectl get rolebinding -n kube-system -o yaml | yq e '.items[] | select(.subjects[] as $i ireduce(false; . or ($i.kind=="User" and $i.name=="system:kube-controller-manager"))) | .metadata.name' -
 ```
 
+### マニフェストの API バージョンのコンバート
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-kubectl-convert-plugin
+
 ### ロゴや名称のライセンス
 
 https://github.com/cncf/artwork

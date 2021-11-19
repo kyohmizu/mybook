@@ -12,6 +12,8 @@ https://www.cvedetails.com/
 
 https://attackerkb.com/
 
+https://vuldb.com/
+
 ### CVE とは
 
 [IPA - 共通脆弱性識別子CVE概説](https://www.ipa.go.jp/security/vuln/CVE.html)
@@ -69,3 +71,4 @@ cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
 - Candidate(候補) ステータスは廃止されたらしい
 - Phase は今では常に Assigned になる
 
+### 参考

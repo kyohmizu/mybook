@@ -50,6 +50,8 @@ https://github.com/awslabs/karpenter
 
 https://github.com/krallin/tini
 
+https://github.com/pixie-io/pixie
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

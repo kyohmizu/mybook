@@ -61,3 +61,7 @@ https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 [クラウドサービス提供における情報セキュリティ対策ガイドライン（第３版） - 総務省](https://www.soumu.go.jp/main_content/000771515.pdf)
 
 [サイバーセキュリティ・ポータルサイト - NISC](https://security-portal.nisc.go.jp/)
+
+https://www.offensive-security.com/
+
+https://www.crowdstrike.com/cybersecurity-101/
