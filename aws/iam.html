@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>WASM · HonKit</title>
+        <title>IAM · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.23">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="goland.html" />
+    <link rel="next" href="switch-role.html" />
     
     
-    <link rel="prev" href="modules.html" />
+    <link rel="prev" href="command.html" />
     
 
     </head>
@@ -548,9 +548,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="general.html">
+        <li class="chapter " data-level="1.7.1" data-path="../golang/general.html">
             
-                <a href="general.html">
+                <a href="../golang/general.html">
             
                     
                     General
@@ -561,9 +561,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="modules.html">
+        <li class="chapter " data-level="1.7.2" data-path="../golang/modules.html">
             
-                <a href="modules.html">
+                <a href="../golang/modules.html">
             
                     
                     Modules
@@ -574,9 +574,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.7.3" data-path="wasm.html">
+        <li class="chapter " data-level="1.7.3" data-path="../golang/wasm.html">
             
-                <a href="wasm.html">
+                <a href="../golang/wasm.html">
             
                     
                     WASM
@@ -587,9 +587,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.4" data-path="goland.html">
+        <li class="chapter " data-level="1.7.4" data-path="../golang/goland.html">
             
-                <a href="goland.html">
+                <a href="../golang/goland.html">
             
                     
                     Goland
@@ -600,9 +600,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.5" data-path="tools.html">
+        <li class="chapter " data-level="1.7.5" data-path="../golang/tools.html">
             
-                <a href="tools.html">
+                <a href="../golang/tools.html">
             
                     
                     Tools
@@ -613,9 +613,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.6" data-path="references.html">
+        <li class="chapter " data-level="1.7.6" data-path="../golang/references.html">
             
-                <a href="references.html">
+                <a href="../golang/references.html">
             
                     
                     References
@@ -852,9 +852,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.10.1" data-path="../aws/general.html">
+        <li class="chapter " data-level="1.10.1" data-path="general.html">
             
-                <a href="../aws/general.html">
+                <a href="general.html">
             
                     
                     General
@@ -865,9 +865,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.2" data-path="../aws/command.html">
+        <li class="chapter " data-level="1.10.2" data-path="command.html">
             
-                <a href="../aws/command.html">
+                <a href="command.html">
             
                     
                     Commands
@@ -878,9 +878,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.3" data-path="../aws/iam.html">
+        <li class="chapter active" data-level="1.10.3" data-path="iam.html">
             
-                <a href="../aws/iam.html">
+                <a href="iam.html">
             
                     
                     IAM
@@ -891,9 +891,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.4" data-path="../aws/switch-role.html">
+        <li class="chapter " data-level="1.10.4" data-path="switch-role.html">
             
-                <a href="../aws/switch-role.html">
+                <a href="switch-role.html">
             
                     
                     Switch Role
@@ -904,9 +904,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.5" data-path="../aws/inspector.html">
+        <li class="chapter " data-level="1.10.5" data-path="inspector.html">
             
-                <a href="../aws/inspector.html">
+                <a href="inspector.html">
             
                     
                     Amazon Inspector
@@ -917,9 +917,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.6" data-path="../aws/references.html">
+        <li class="chapter " data-level="1.10.6" data-path="references.html">
             
-                <a href="../aws/references.html">
+                <a href="references.html">
             
                     
                     References
@@ -1553,7 +1553,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >WASM</a>
+        <a href=".." >IAM</a>
     </h1>
 </div>
 
@@ -1568,23 +1568,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="webassembly">WebAssembly</h1>
-<p>サンプルコード：<a href="https://github.com/kyohmizu/go-wasm-sample" target="_blank">https://github.com/kyohmizu/go-wasm-sample</a></p>
-<h3 id="command">Command</h3>
-<pre><code class="lang-bash"><span class="hljs-comment"># copy required files</span>
-cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
-cp $(go env GOROOT)/misc/wasm/wasm_exec.html .
-
-<span class="hljs-comment"># build</span>
-GOOS=js GOARCH=wasm go build -o main.wasm
-
-<span class="hljs-comment"># test</span>
-GOOS=js GOARCH=wasm go <span class="hljs-built_in">test</span> -<span class="hljs-built_in">exec</span>=<span class="hljs-string">&quot;<span class="hljs-subst">$(go env GOROOT)</span>/misc/wasm/go_js_wasm_exec&quot;</span>
-</code></pre>
+                                <h1 id="iam">IAM</h1>
 <h3 id="参考">参考</h3>
-<p><a href="https://zchee.github.io/golang-wiki/WebAssembly/" target="_blank">https://zchee.github.io/golang-wiki/WebAssembly/</a></p>
-<p><a href="https://buildersbox.corp-sansan.com/entry/2019/02/14/113000" target="_blank">Go × WebAssemblyで電卓のWebアプリを作ってみた</a></p>
-<p><a href="https://www.cetus-media.info/article/2021/go-wasm/" target="_blank">JSを書かずにGOだけでWEBサイトをつくってみた(WEBASSEMBLY)</a></p>
+<p><a href="https://aws.permissions.cloud/policyevaluator" target="_blank">https://aws.permissions.cloud/policyevaluator</a></p>
 
                                 
                                 </section>
@@ -1612,12 +1598,12 @@ GOOS=js GOARCH=wasm go <span class="hljs-built_in">test</span> -<span class="hlj
 
             
                 
-                <a href="modules.html" class="navigation navigation-prev " aria-label="Previous page: Modules">
+                <a href="command.html" class="navigation navigation-prev " aria-label="Previous page: Commands">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="goland.html" class="navigation navigation-next " aria-label="Next page: Goland">
+                <a href="switch-role.html" class="navigation navigation-next " aria-label="Next page: Switch Role">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1628,7 +1614,7 @@ GOOS=js GOARCH=wasm go <span class="hljs-built_in">test</span> -<span class="hlj
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"WASM","level":"1.7.3","depth":2,"next":{"title":"Goland","level":"1.7.4","depth":2,"path":"golang/goland.md","ref":"golang/goland.md","articles":[]},"previous":{"title":"Modules","level":"1.7.2","depth":2,"path":"golang/modules.md","ref":"golang/modules.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"golang/wasm.md","mtime":"2021-12-08T10:17:53.019Z","type":"markdown"},"gitbook":{"version":"3.6.23","time":"2021-12-08T10:18:06.932Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"IAM","level":"1.10.3","depth":2,"next":{"title":"Switch Role","level":"1.10.4","depth":2,"path":"aws/switch-role.md","ref":"aws/switch-role.md","articles":[]},"previous":{"title":"Commands","level":"1.10.2","depth":2,"path":"aws/command.md","ref":"aws/command.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"aws/iam.md","mtime":"2021-12-08T10:17:53.019Z","type":"markdown"},"gitbook":{"version":"3.6.23","time":"2021-12-08T10:18:06.932Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
