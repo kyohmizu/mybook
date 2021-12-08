@@ -16,3 +16,4 @@
 
 [NETSCOUT THREAT INTELLIGENCE REPORT](https://www.netscout.com/threatreport)
 
+[OOPS writeups](https://surfingcomplexity.blog/2021/11/21/oops-writeups/)

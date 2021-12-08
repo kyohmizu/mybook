@@ -54,6 +54,7 @@
 - AWS
   - [General](aws/general.md)
   - [Commands](aws/command.md)
+  - [IAM](aws/iam.md)
   - [Switch Role](aws/switch-role.md)
   - [Amazon Inspector](aws/inspector.md)
   - [References](aws/references.md)
@@ -64,6 +65,8 @@
 - Web
   - [Google Chrome](web/chrome.md)
   - [CSS](web/css.md)
+  - [NPM](web/npm.md)
+  - [React](web/react.md)
 - Security
   - [General](security/general.md)
   - [CVE](security/cve.md)
