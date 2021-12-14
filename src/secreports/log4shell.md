@@ -35,7 +35,7 @@
 [https://nvd.nist.gov/vuln/detail/CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 > Apache Log4j2 <=2.14.1 設定、ログメッセージ、パラメータに使用される JNDI 機能は、攻撃者が制御する LDAP や他の JNDI 関連のエンドポイントから保護されません。ログメッセージやログメッセージのパラメーターを制御できる攻撃者は、メッセージのルックアップ置換が有効な場合、LDAP サーバーからロードされた任意のコードを実行できます。log4j 2.15.0 からは、この動作はデフォルトで無効になっています。以前のリリース（>2.10）では、システムプロパティ「log4j2.formatMsgNoLookups」を「true」に設定するか、クラスパスから JndiLookup クラスを削除することで、この動作を緩和することができます（例：zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class）。Java 8u121（[https://www.oracle.com/java/technologies/javase/8u121-relnotes.html](https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) 参照）では、「com.sun.jndi.rmi.object.trustURLCodebase」および「com.sun.jndi.cosnaming.object.trustURLCodebase」をデフォルトで「false」に設定することで、リモートコードの実行から保護しています。
-> 
+
 - Java Naming and Directory Interface (JNDI) は、Javaアプリがディレクトリサービスが提供するデータ・リソースを参照するための汎用API
     - [https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface](https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface)
 - 本脆弱性は log4j2 のJNDI Lookup を悪用    
@@ -94,7 +94,7 @@ java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer 
 
 ## スキャン状況
 
-[GreyNoise](https://www.greynoise.io/viz/query/?gnql=tags%3A%22Apache%20Log4j%20RCE%20Attempt%22)
+<https://www.greynoise.io/viz/query/?gnql=tags%3A%22Apache%20Log4j%20RCE%20Attempt%22>
 
 IOC
 
