@@ -52,6 +52,8 @@ https://github.com/krallin/tini
 
 https://github.com/pixie-io/pixie
 
+https://github.com/salesforce/sloop
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

