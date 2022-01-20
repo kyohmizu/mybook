@@ -64,6 +64,8 @@ https://github.com/salesforce/sloop
 
 [Kubernetes 専門家として知るべき 47 のこと](https://ymmt.hatenablog.com/entry/k8s-things)
 
+[IAM roles for Kubernetes service accounts - deep dive](https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html)
+
 ### Books
 
 https://kubernetes-security.info/

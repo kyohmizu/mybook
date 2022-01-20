@@ -43,6 +43,8 @@
   - [Functions](terraform/functions.md)
   - [Tips](terraform/tips.md)
   - [References](terraform/references.md)
+- SRE
+  - [References](sre/references.md)
 - GCP
   - [General](gcp/general.md)
   - [Commands](gcp/command.md)
@@ -50,6 +52,7 @@
   - [TLS for Internal Ingress](gcp/cert.md)
   - [Cloud Run](gcp/cloudrun.md)
   - [BigQuery](gcp/bigquery.md)
+  - [Logging](gcp/logging.md)
   - [Security Logging](gcp/security_logging.md)
   - [OIDC](gcp/oidc.md)
   - [References](gcp/references.md)
@@ -67,8 +70,10 @@
 - Web
   - [Google Chrome](web/chrome.md)
   - [CSS](web/css.md)
+  - [Icon](web/icon.md)
   - [NPM](web/npm.md)
   - [React](web/react.md)
+  - [Tools](web/tools.md)
 - SaaS
   - [PagerDuty](saas/pagerduty.md)
 - Security

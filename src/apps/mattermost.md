@@ -9,3 +9,5 @@ https://pkg.go.dev/github.com/mattermost/mattermost-server/v6/model
 [[Mattermost Integrations] Interactive Dialog - Zenn](https://zenn.dev/kaakaa/articles/qiita-20201216-1e00835dc48652c127d0)
 
 [[Mattermost Integrations] Plugin (Server API) - Zenn](https://zenn.dev/kaakaa/articles/qiita-20201219-1eac2baee4037ce99d41)
+
+https://blog.kaakaa.dev/post/mattermost/advent-calendar-2020/day21-plugin-webapp2/

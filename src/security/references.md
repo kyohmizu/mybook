@@ -28,6 +28,10 @@ https://openssf.org/
 
 https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 
+### Bug Hunt
+
+https://huntr.dev/
+
 ### news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)

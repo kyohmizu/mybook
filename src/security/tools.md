@@ -54,6 +54,12 @@ https://www.torproject.org/
 
 [Tor over VPN: Is it useful if you’re not a whistleblower?](https://cybernews.com/what-is-vpn/tor-over-vpn/)
 
+### Qubes & whonix
+
+https://www.whonix.org/wiki/Qubes
+
+https://www.whonix.org/
+
 ### proxychains & tor
 
 https://linuxhint.com/proxychains-tutorial/
@@ -125,7 +131,8 @@ https://github.com/cytopia/pwncat
 
 https://github.com/Cisco-Talos/clamav
 
-https://app.netlas.io
+https://app.netlas.io  
+[Finding Vulnerable Systems Across the Internet with Netlas.io](https://www.hackers-arise.com/post/open-source-intelligence-osint-finding-vulnerable-systems-across-the-internet-with-netlas-io)
 
 https://www.exabeam.com/
 

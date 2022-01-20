@@ -12,6 +12,12 @@ https://urlhaus.abuse.ch/
 
 https://www.phishtank.com/
 
+### IP Address Search
+
+https://who.is/
+
+https://www.shodan.io/
+
 ### Sandbox
 
 https://analyze.intezer.com/

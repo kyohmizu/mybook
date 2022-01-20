@@ -80,7 +80,7 @@
     [https://twitter.com/ryotkak/status/1470177786891767810](https://twitter.com/ryotkak/status/1470177786891767810)
     
 
-## デモ
+## POC
 
 ![log4shell.png](images/log4shell/log4shell.png)
 
@@ -92,6 +92,8 @@ java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer 
 /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/bin/java -cp "target/classes:/Users/kyohmizu/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/kyohmizu/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar" Log4j2Test
 ```
 
+<https://github.com/christophetd/log4shell-vulnerable-app>
+
 ## スキャン状況
 
 <https://www.greynoise.io/viz/query/?gnql=tags%3A%22Apache%20Log4j%20RCE%20Attempt%22>
@@ -100,6 +102,15 @@ IOC
 
 - Domain: [https://gist.github.com/superducktoes/9b742f7b44c71b4a0d19790228ce85d8](https://gist.github.com/superducktoes/9b742f7b44c71b4a0d19790228ce85d8)
 - IP: [https://gist.github.com/gnremy/c546c7911d5f876f263309d7161a7217](https://gist.github.com/gnremy/c546c7911d5f876f263309d7161a7217)
+
+AWS CloudWatch logs
+
+```
+fields @timestamp, @log, @message
+| filter @message like 'jndi:'
+| sort @timestamp desc
+| limit 100
+```
 
 ## WAF について
 
@@ -117,6 +128,18 @@ IOC
 
 [https://github.com/corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 
+## 各サービス対応
+
+- Keycloak: https://github.com/keycloak/keycloak/discussions/9078
+- elastic: https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476
+- MWAA: https://aws.amazon.com/jp/blogs/opensource/amazon-managed-workflows-for-apache-airflow-unaffected-by-airflow-1-10-12-vulnerability/
+
+## 新たな攻撃ベクター
+
+https://nvd.nist.gov/vuln/detail/CVE-2021-45046
+
+> Apache Log4j 2.15.0 の CVE-2021-44228 に対応するための修正が、特定の非デフォルトの構成で不完全であることが判明しています。このため、ロギング構成がデフォルト以外のパターンレイアウトでコンテキスト検索（例えば、$${ctx:loginId}）またはスレッドコンテキストマップパターン（%X、%mdc、%MDC）を使用する場合、Thread Context Map（MDC）入力データを制御できる攻撃者が、JNDI検索パターンで不正な入力データを作成して、サービス拒否（DOS）攻撃となる可能性がありました。Log4j 2.15.0 は、JNDI LDAP ルックアップをデフォルトで localhost に制限しています。システムプロパティ `log4j2.noFormatMsgLookup` を `true` に設定するなどの設定を含む以前の緩和策は、この特定の脆弱性を緩和するものではないことに注意してください。Log4j 2.16.0 では、メッセージルックアップパターンのサポートを削除し、JNDI 機能をデフォルトで無効にすることで、この問題を修正しています。この問題は、以前のリリース (<2.16.0) では、クラスパスから JndiLookup クラスを削除することで軽減できます (例: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class)．
+
 ## 参考
 
 [https://www.ipa.go.jp/security/ciadr/vul/alert20211213.html](https://www.ipa.go.jp/security/ciadr/vul/alert20211213.html)
@@ -128,3 +151,13 @@ IOC
 [https://www.security-next.com/132414](https://www.security-next.com/132414)
 
 [CVE-2021-44228 - vuldb](https://vuldb.com/?id.187925)
+
+<https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4j/>
+
+<https://piyolog.hatenadiary.jp/entry/2021/12/13/045541>
+
+<https://github.com/zzwlpx/JNDIExploit>
+
+<https://blogs.juniper.net/en-us/security/in-the-wild-log4j-attack-payloads>
+
+<https://blog.cloudflare.com/actual-cve-2021-44228-payloads-captured-in-the-wild/>
