@@ -54,6 +54,12 @@ https://github.com/pixie-io/pixie
 
 https://github.com/salesforce/sloop
 
+https://github.com/int128/kubelogin
+
+https://github.com/aquasecurity/kube-hunter
+
+https://github.com/kbrew-dev/kbrew
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

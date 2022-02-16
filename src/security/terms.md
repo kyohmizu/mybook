@@ -65,3 +65,23 @@
 
 - Secure Access Service Edge
 - https://cybersecurity-jp.com/column/35849
+
+### SBOM
+
+- Software Bill of Materials
+- https://securityboulevard.com/2021/08/what-is-an-sbom-a-deep-dive/
+
+### SSVC
+
+- Stakeholder-Specific Vulnerability Categorization
+- https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/stakeholder-specific-vulnerability-categorization.html
+
+### OPSEC
+
+- operations security
+- https://searchcompliance.techtarget.com/definition/OPSEC-operational-security
+
+### FIM
+
+- File integrity monitoring
+- https://www.beyondtrust.com/resources/glossary/file-integrity-monitoring

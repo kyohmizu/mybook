@@ -17,3 +17,7 @@
 [NETSCOUT THREAT INTELLIGENCE REPORT](https://www.netscout.com/threatreport)
 
 [OOPS writeups](https://surfingcomplexity.blog/2021/11/21/oops-writeups/)
+
+[DDoS Attack Trends for Q4 2021 - Cloudflare](https://blog.cloudflare.com/ddos-attack-trends-for-2021-q4/)
+
+[A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)

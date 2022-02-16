@@ -109,6 +109,10 @@ python3.8 -c 'import os; os.setuid(0); os.system("/bin/bash")'
 
 https://github.com/mbechler/marshalsec
 
+### Linux
+
+https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/7/html/security_guide/sec-using-aide
+
 ### Services & Apps
 
 https://www.crowdstrike.com/
@@ -137,3 +141,9 @@ https://app.netlas.io
 https://www.exabeam.com/
 
 https://www.adaptive-shield.com/
+
+https://regexr.com/
+
+https://houdini.secsi.io/
+
+https://github.com/Datadog/stratus-red-team/

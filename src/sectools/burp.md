@@ -1,6 +1,5 @@
 # Burp Suite
 
-
 ### Firefox
 
 プロキシしないで接続
