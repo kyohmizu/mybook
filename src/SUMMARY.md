@@ -70,6 +70,7 @@
 - Web
   - [Google Chrome](web/chrome.md)
   - [HTTP](web/http.md)
+  - [JavaScript](web/js.md)
   - [CSS](web/css.md)
   - [Icon](web/icon.md)
   - [NPM](web/npm.md)
@@ -103,6 +104,7 @@
   - [WAF](security/waf.md)
   - [Web](security/web.md)
   - [macOS](security/mac.md)
+  - [Dark Web](security/darkweb.md)
   - [情報処理安全確保支援士](security/ipa-sc.md)
   - [CEH](security/ceh.md)
   - [用語集](security/terms.md)

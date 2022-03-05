@@ -44,28 +44,6 @@ Host host2
 getcap -r / 2>/dev/null
 ```
 
-### Tor Browser
-
-https://www.torproject.org/
-
-[How To Access The Dark Web: What Is Tor And How Do I Access Dark Websites?](https://www.alphr.com/technology/1002667/how-to-access-the-dark-web-what-is-tor-and-how-do-i-use-it/#:~:text=Tor%20is%20an%20anonymity%20network,re%20logged%20into%20a%20website.)
-
-[How To Use Tor Browser: Everything You MUST Know in 2021](https://www.vpnmentor.com/blog/tor-browser-work-relate-using-vpn/)
-
-[Tor over VPN: Is it useful if you’re not a whistleblower?](https://cybernews.com/what-is-vpn/tor-over-vpn/)
-
-### Qubes & whonix
-
-https://www.whonix.org/wiki/Qubes
-
-https://www.whonix.org/
-
-### proxychains & tor
-
-https://linuxhint.com/proxychains-tutorial/
-
-https://www.geeksforgeeks.org/how-to-setup-proxychains-in-linux-without-any-errors/
-
 ### password
 
 - 辞書ファイル、パスワードリスト
@@ -129,13 +107,8 @@ https://www.menlosecurity.com/
 
 https://www.shodan.io/
 
-https://github.com/optiv/ScareCrow
-
-https://github.com/cytopia/pwncat
-
-https://github.com/Cisco-Talos/clamav
-
 https://app.netlas.io  
+
 [Finding Vulnerable Systems Across the Internet with Netlas.io](https://www.hackers-arise.com/post/open-source-intelligence-osint-finding-vulnerable-systems-across-the-internet-with-netlas-io)
 
 https://www.exabeam.com/
@@ -147,3 +120,31 @@ https://regexr.com/
 https://houdini.secsi.io/
 
 https://github.com/Datadog/stratus-red-team/
+
+https://snyk.io/
+
+### OSS
+
+https://github.com/awslabs/git-secrets
+
+https://github.com/sobolevn/git-secret
+
+https://github.com/optiv/ScareCrow
+
+https://github.com/cytopia/pwncat
+
+https://github.com/Cisco-Talos/clamav
+
+https://github.com/trufflesecurity/truffleHog
+
+https://github.com/tillson/git-hound
+
+https://github.com/decalage2/oletools
+
+https://github.com/decalage2/ViperMonkey
+
+https://github.com/DidierStevens/DidierStevensSuite/blob/master/oledump.py
+
+https://github.com/DidierStevens/DidierStevensSuite/blob/master/zipdump.py
+
+https://github.com/makenowjust-labs/recheck

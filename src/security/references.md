@@ -69,3 +69,5 @@ https://huntr.dev/
 https://www.offensive-security.com/
 
 https://www.crowdstrike.com/cybersecurity-101/
+
+[GitHubセキュリティ Organization運用のベストプラクティス](https://zenn.dev/tmknom/books/github-organization-security)
