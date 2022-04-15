@@ -1,6 +1,6 @@
-# 2021-12-14 log4shell(CVE-2021-44228) 調査レポート
+# log4shell(CVE-2021-44228) 調査レポート
 
-## log4j2 のゼロデイ脆弱性が発見されました。
+## log4j2 の脆弱性が発見されました。
 
 [https://www.itmedia.co.jp/news/articles/2112/10/news157.html](https://www.itmedia.co.jp/news/articles/2112/10/news157.html)
 

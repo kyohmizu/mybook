@@ -1,5 +1,8 @@
 # Vuls
 
+Created: January 18, 2022 5:00 PM
+Edited: March 1, 2022 2:39 PM
+
 ## Overview
 
 Agentless Vulnerability Scanner for Linux/FreeBSD
@@ -52,6 +55,7 @@ $ cat results/current/localhost_short.txt
     - GOPATH などの関係でスクリプトが正しく動かない
 - root でスキャン実行すると、結果ファイルをダウンロードする際にファイルオーナーの変更が必要（めんどくさい）
 - DB アップデートのスクリプトは全件更新しようとするので、範囲を限定した方が良い。
+    - JVN 2017 は存在しないようで、そこで止まってしまうので初回以降は2018〜2022に限定すると良い
     
     ```bash
     - go-cve-dictionary fetch jvn
@@ -89,7 +93,7 @@ Warning: Some warnings occurred.
 
 以下で解決。
 
-```java
+```bash
 yum install yum-utils
 ```
 
@@ -107,3 +111,71 @@ INFO[01-21|08:57:26] Insert 25468 CVEs
 ```
 
 オプションを削除したら解決。（デフォルト値は15）
+
+## GCE (REHL8) への導入手順
+
+```bash
+sudo yum install git
+sudo yum install yum-utils
+git clone https://github.com/vulsio/vulsctl.git
+
+cd vulsctl/install-host/
+sudo bash install.sh
+vi ~/.bachrc # export GOPATH
+./update-all.sh
+./cvedb.sh 2018
+./cvedb.sh 2019
+./cvedb.sh 2020
+./cvedb.sh 2021
+./cvedb.sh 2022
+cp ../config.toml.localscan config.toml
+vi config.toml
+
+# Weekly Scan
+./update-all.sh
+vuls scan
+vuls report -to-localfile -cvss-over=7.0 -format-csv -diff
+cat results/current/localhost_diff.csv
+grep -e 'CVE-ID\|,fixed' results/current/localhost_diff.csv
+```
+
+[update-all.sh](http://update-all.sh/)
+
+```bash
+#!/bin/sh
+  
+./oval.sh --redhat && \
+#./oval.sh --amazon && \
+#./oval.sh --debian && \
+#./oval.sh --ubuntu && \
+#./oval.sh --alpine && \
+#./oval.sh --oracle && \
+#./oval.sh --fedora && \
+./gost.sh --redhat && \
+#./gost.sh --debian && \
+#./gost.sh --ubuntu && \
+./cvedb.sh 2021 && \
+./cvedb.sh 2022 && \
+./exploitdb.sh && \
+./msfdb.sh
+./kev.sh
+```
+
+.bashrc
+
+```bash
+export GOROOT=/usr/local/go;
+export GOPATH=$HOME/go;
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin;
+```
+
+config.toml
+
+```bash
+[servers]
+  
+[servers.localhost]
+host               = "127.0.0.1"
+port               = "local"
+scanMode           = ["deep"]
+```

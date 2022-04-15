@@ -60,6 +60,18 @@ https://github.com/aquasecurity/kube-hunter
 
 https://github.com/kbrew-dev/kbrew
 
+https://github.com/nicolaka/netshoot
+
+https://github.com/madhuakula/kubernetes-goat
+
+https://github.com/keikoproj/kube-forensics
+
+https://github.com/abahmed/kwatch
+
+https://github.com/deepfence/PacketStreamer
+
+https://github.com/stackrox/stackrox
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

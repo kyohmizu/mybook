@@ -16,8 +16,10 @@
   - [References](prometheus/references.md)
 - Linux
   - [General](linux/general.md)
+  - [Kernel](linux/kernel.md)
   - [grep](linux/grep.md)
   - [awk](linux/awk.md)
+  - [crontab](linux/crontab.md)
   - [curl](linux/curl.md)
   - [zsh](linux/zsh.md)
   - [Tips](linux/tips.md)
@@ -41,6 +43,8 @@
 - Terraform
   - [General](terraform/general.md)
   - [Functions](terraform/functions.md)
+  - [sops terraform provider](terraform/sops.md)
+  - [terraform plan で sensitive values を参照する](terraform/plan-sensitive.md)
   - [Tips](terraform/tips.md)
   - [References](terraform/references.md)
 - SRE
@@ -66,10 +70,12 @@
 - Network
   - [DNS](network/dns.md)
   - [Tips](network/tips.md)
+  - [Tools](network/tools.md)
   - [References](network/references.md)
 - Web
   - [Google Chrome](web/chrome.md)
   - [HTTP](web/http.md)
+  - [TLS](web/tls.md)
   - [JavaScript](web/js.md)
   - [CSS](web/css.md)
   - [Icon](web/icon.md)
@@ -84,7 +90,8 @@
   - [CVE](security/cve.md)
   - [CVSS](security/cvss.md)
   - [Vulnerability](security/vuln.md)
-  - [マルウェア](security/malware.md)
+  - [Malware](security/malware.md)
+  - [Ransomware](security/ransomware.md)
   - [ペンテスト](security/pentest.md)
   - [Exploit](security/exploit.md)
   - [Learning](security/learning.md)
@@ -94,12 +101,14 @@
   - [Container Security](security/container.md)
   - [Phishing](security/phishing.md)
   - [CTI](security/cti.md)
+  - [OSINT](security/osint.md)
   - [CSIRT](security/csirt.md)
   - [Incident Response](security/ir.md)
   - [MITRE](security/mitre.md)
   - [Kill Chain](security/killchain.md)
   - [Reports](security/reports.md)
   - [Tools](security/tools.md)
+  - [Cloud Security](security/cloud.md)
   - [AWS Security](security/aws.md)
   - [WAF](security/waf.md)
   - [Web](security/web.md)
@@ -114,6 +123,10 @@
   - [Burp Suite](sectools/burp.md)
 - Security Reports
   - [log4shell](secreports/log4shell.md)
+  - [Dirty Pipe](secreports/dirtypipe.md)
+  - [CVE-2022-0492](secreports/cve-2022-0492.md)
+  - [CVE-2022-0811](secreports/cve-2022-0811.md)
+  - [Srping4shell](secreports/spring4shell.md)
 - Programming
   - [コンテスト](programming/contests.md)
   - [References](programming/references.md)

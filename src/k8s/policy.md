@@ -8,7 +8,6 @@ https://github.com/open-policy-agent/opa
 
 ### kyverno
 
-
 https://github.com/kyverno/kyverno
 
 ### PodSecurity Admission

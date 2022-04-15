@@ -148,3 +148,11 @@ https://github.com/DidierStevens/DidierStevensSuite/blob/master/oledump.py
 https://github.com/DidierStevens/DidierStevensSuite/blob/master/zipdump.py
 
 https://github.com/makenowjust-labs/recheck
+
+https://github.com/KathanP19/HowToHunt
+
+https://github.com/bridgecrewio/checkov
+
+https://github.com/Lissy93/personal-security-checklist
+
+https://github.com/guardrailsio/awesome-golang-security

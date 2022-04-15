@@ -1,5 +1,15 @@
 # Vulnerability
 
+- Named Vulnerabilities
+  - https://github.com/hannob/vulns
+  - https://shellsharks.com/designer-vulnerabilities
+- Dirty Pipe
+  - https://dirtypipe.cm4all.com/
+- Log4shell
+  - [report page](../secreports/log4shell.md)
+- Dirty COW
+  - https://dirtycow.ninja/
+
 ### Data Source
 
 https://vulndb.cyberriskanalytics.com/
@@ -7,6 +17,8 @@ https://vulndb.cyberriskanalytics.com/
 ### XSS
 
 https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+
+[開発者が知っておきたい「XSSの発生原理以外」の話](https://blog.flatt.tech/entry/xss_risk)
 
 ### Trojan Source
 
@@ -30,3 +42,4 @@ https://github.com/roottusk/vapi
 
 [KNOWN EXPLOITED VULNERABILITIES CATALOG](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
+[0day “In the Wild”](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1123292625)

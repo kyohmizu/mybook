@@ -71,3 +71,7 @@ https://www.offensive-security.com/
 https://www.crowdstrike.com/cybersecurity-101/
 
 [GitHubセキュリティ Organization運用のベストプラクティス](https://zenn.dev/tmknom/books/github-organization-security)
+
+https://www.cidersecurity.io/top-10-cicd-security-risks/
+
+https://pwning.systems/

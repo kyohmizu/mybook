@@ -25,3 +25,7 @@
 [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
 
 [cgroupsに影響するLinuxの新たな脆弱性CVE-2022-0492 コンテナエスケープの条件は](https://unit42.paloaltonetworks.jp/cve-2022-0492-cgroups/)
+
+https://github.com/jhftss/CVE-2022-22639
+
+https://io.cyberdefense.jp/entry/antivirus
