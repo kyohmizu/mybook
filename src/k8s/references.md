@@ -2,6 +2,8 @@
 
 https://glossary.cncf.io/
 
+https://github.com/aws/aws-eks-best-practices/
+
 ### OSS
 
 https://tutorials.keptn.sh/
@@ -71,6 +73,22 @@ https://github.com/abahmed/kwatch
 https://github.com/deepfence/PacketStreamer
 
 https://github.com/stackrox/stackrox
+
+https://github.com/FairwindsOps/pluto
+
+https://github.com/Checkmarx/kics
+
+https://github.com/controlplaneio/kubesec
+
+https://github.com/stackrox/kube-linter
+
+https://github.com/FairwindsOps/polaris
+
+https://github.com/zegl/kube-score
+
+https://github.com/doitintl/kube-no-trouble
+
+https://github.com/kubernetes/git-sync
 
 ### Blogs
 

@@ -75,3 +75,13 @@ https://www.crowdstrike.com/cybersecurity-101/
 https://www.cidersecurity.io/top-10-cicd-security-risks/
 
 https://pwning.systems/
+
+[忙しい人のためのセキュリティ・インテリジェンス](https://ken5scal.notion.site/54bda4932da14add9e9911ab3e9a6e5c)
+
+https://www.computerweekly.com/resources/IT-security
+
+https://www.darkreading.com/
+
+https://www.helpnetsecurity.com/
+
+https://securityzines.com/

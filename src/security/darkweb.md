@@ -1,5 +1,11 @@
 # Dark Web
 
+## Verify Security
+
+https://coveryourtracks.eff.org/
+
+https://check.torproject.org/
+
 ## Tor
 
 https://www.torproject.org/
@@ -9,6 +15,16 @@ https://www.torproject.org/
 [How To Use Tor Browser: Everything You MUST Know in 2021](https://www.vpnmentor.com/blog/tor-browser-work-relate-using-vpn/)
 
 [Tor over VPN: Is it useful if you’re not a whistleblower?](https://cybernews.com/what-is-vpn/tor-over-vpn/)
+
+https://deepdarkweb.github.io/how-to-install-tor-on-macos-tutorial/
+
+https://wildcardcorp.com/blogs/tor-torify-torsocks
+
+### HTTP Proxy
+
+```bash
+export http_proxy=socks5h://127.0.0.1:9050 https_proxy=socks5h://127.0.0.1:9050
+```
 
 ### Qubes & whonix
 
@@ -26,6 +42,3 @@ https://www.geeksforgeeks.org/how-to-setup-proxychains-in-linux-without-any-erro
 - リレーノード、出口ノード一覧
   - https://www.dan.me.uk/torlist/
   - https://www.dan.me.uk/torlist/?exit
-  - 
-
-

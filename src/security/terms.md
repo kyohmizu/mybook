@@ -85,3 +85,9 @@
 
 - File integrity monitoring
 - https://www.beyondtrust.com/resources/glossary/file-integrity-monitoring
+
+### DAST
+
+- Dynamic Application Security Testing
+- https://www.microfocus.com/ja-jp/what-is/dast
+- https://www.f5.com/ja_jp/services/resources/glossary/dynamic-application-security-testing-dast

@@ -22,12 +22,14 @@
   - [crontab](linux/crontab.md)
   - [curl](linux/curl.md)
   - [zsh](linux/zsh.md)
+  - [eBPF](linux/ebpf.md)
   - [Tips](linux/tips.md)
   - [References](linux/references.md)
 - macOS
   - [Kernel](macos/kernel.md)
   - [System Extensions](macos/sext.md)
   - [Tips](macos/tips.md)
+  - [References](macos/references.md)
 - Git
   - [General](git/general.md)
   - [GitHub Actions](git/actions.md)
@@ -87,6 +89,7 @@
 - Security
   - [General](security/general.md)
   - [Books](security/books.md)
+  - [SNS](security/sns.md)
   - [CVE](security/cve.md)
   - [CVSS](security/cvss.md)
   - [Vulnerability](security/vuln.md)
@@ -112,6 +115,8 @@
   - [AWS Security](security/aws.md)
   - [WAF](security/waf.md)
   - [Web](security/web.md)
+  - [Security Vendors](security/vendor.md)
+  - [EDR](security/edr.md)
   - [macOS](security/mac.md)
   - [Dark Web](security/darkweb.md)
   - [情報処理安全確保支援士](security/ipa-sc.md)

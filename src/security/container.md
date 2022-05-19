@@ -23,3 +23,27 @@ https://github.com/keikoproj/kube-forensics
 https://github.com/deepfence/PacketStreamer
 
 https://github.com/stackrox/stackrox
+
+https://isovalent.com/assets/pdfs/isovalent_security_observability.pdf
+
+https://www.cidersecurity.io/top-10-cicd-security-risks/
+
+https://securityhub.dev/
+
+## Tools
+
+https://github.com/FairwindsOps/pluto
+
+https://github.com/Checkmarx/kics
+
+https://github.com/controlplaneio/kubesec
+
+https://github.com/stackrox/kube-linter
+
+https://github.com/FairwindsOps/polaris
+
+https://github.com/zegl/kube-score
+
+https://github.com/cilium/tetragon
+
+https://github.com/falcosecurity/falco

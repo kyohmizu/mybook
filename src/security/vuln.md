@@ -20,6 +20,10 @@ https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 [開発者が知っておきたい「XSSの発生原理以外」の話](https://blog.flatt.tech/entry/xss_risk)
 
+### SQL Injection
+
+https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
+
 ### Trojan Source
 
 [StackOverflowからのコピペをやめろ。今すぐにだ。 - Qiita](https://qiita.com/rana_kualu/items/3b03961deb003a8a2f1d)

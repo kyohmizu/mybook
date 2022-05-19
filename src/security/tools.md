@@ -123,6 +123,10 @@ https://github.com/Datadog/stratus-red-team/
 
 https://snyk.io/
 
+https://www.cisa.gov/free-cybersecurity-services-and-tools
+
+https://www.blueteamsacademy.com/top20/
+
 ### OSS
 
 https://github.com/awslabs/git-secrets
@@ -156,3 +160,9 @@ https://github.com/bridgecrewio/checkov
 https://github.com/Lissy93/personal-security-checklist
 
 https://github.com/guardrailsio/awesome-golang-security
+
+https://github.com/decalage2/awesome-security-hardening
+
+https://github.com/curiefense/curiefense
+
+https://github.com/containers/bubblewrap

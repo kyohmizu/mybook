@@ -1,5 +1,7 @@
 # Forensics
 
+https://github.com/mikeroyal/Digital-Forensics-Guide
+
 ### Maliware Analysis
 
 https://yara-ci.cloud.virustotal.com/
@@ -8,6 +10,10 @@ https://github.com/mandiant/stringsifter
 
 https://github.com/JPCERTCC/jpcert-yara
 
+### Cloud
+
+https://github.com/google/cloud-forensics-utils
+
 ### Windows
 
 [小規模CSIRT向けWindowsイベントログで押さえておくこと](https://ierae.co.jp/blog/csirt_windows_event_log/)
@@ -15,6 +21,8 @@ https://github.com/JPCERTCC/jpcert-yara
 https://ghidra-sre.org/
 
 https://malapi.io/
+
+https://github.com/Johnng007/Live-Forensicator
 
 ### macOS
 

@@ -1,5 +1,7 @@
 # DFIR
 
+[THE DFIR REPORT](https://thedfirreport.com/)
+
 [IcedID to XingLocker Ransomware in 24 hours](https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/)
 
 [SQUIRRELWAFFLE Leverages malspam to deliver Qakbot, Cobalt Strike](https://blog.talosintelligence.com/2021/10/squirrelwaffle-emerges.html)
@@ -29,3 +31,7 @@
 https://github.com/jhftss/CVE-2022-22639
 
 https://io.cyberdefense.jp/entry/antivirus
+
+[BlackTech 標的型攻撃解析レポート](https://jp.security.ntt/resources/BlackTech_2021.pdf)
+
+[政府機関のコンピュータに数か月潜伏した後、Lockbit ランサムウェアを展開した攻撃者](https://news.sophos.com/ja-jp/2022/04/12/attackers-linger-on-government-agency-computers-before-deploying-lockbit-ransomware-jp/)

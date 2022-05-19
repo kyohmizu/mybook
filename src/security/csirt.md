@@ -14,14 +14,6 @@ https://opencsirt.org/csirt-maturity/sim3-and-references/
 
 https://github.com/correlatedsecurity/Awesome-SOAR
 
-### SBOM
-
-https://blog.aquasec.com/software-supply-chain-security-trivy-sbom
-
-https://cyclonedx.org/
-
-https://github.com/CycloneDX/bom-examples
-
 ### 参考
 
 [CSIRTマテリアル - JPCERT](https://www.jpcert.or.jp/csirt_material/)

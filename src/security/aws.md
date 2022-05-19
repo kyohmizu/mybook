@@ -21,3 +21,5 @@ https://github.com/prowler-cloud/prowler
 [Guidelines for Implementing AWS WAF](https://d1.awsstatic.com/whitepapers/guidelines-implementing-aws-waf.pdf)
 
 [Top 2021 AWS Security service launches security professionals should review – Part 1](https://aws.amazon.com/jp/blogs/security/top-2021-aws-security-service-launches-part-1/)
+
+https://wellarchitectedlabs.com/security/

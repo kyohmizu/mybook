@@ -33,3 +33,7 @@ https://openvas.org/
 https://wpscan.com/
 
 https://github.com/CoolerVoid/0d1n
+
+https://github.com/jivoi/awesome-osint
+
+https://toolbox.google.com/factcheck/explorer
