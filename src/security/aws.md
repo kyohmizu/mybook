@@ -14,6 +14,14 @@ https://github.com/nozaq/terraform-aws-secure-baseline
 
 https://github.com/prowler-cloud/prowler
 
+https://github.com/sbasu7241/AWS-Threat-Simulation-and-Detection
+
+### Maturity Model
+
+https://maturitymodel.security.aws.dev/en/model/
+
+https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf
+
 ### 参考
 
 [Amazon GuardDuty Enhances Detection of EC2 Instance Credential Exfiltration](https://aws.amazon.com/jp/blogs/aws/amazon-guardduty-enhances-detection-of-ec2-instance-credential-exfiltration/)
@@ -23,3 +31,5 @@ https://github.com/prowler-cloud/prowler
 [Top 2021 AWS Security service launches security professionals should review – Part 1](https://aws.amazon.com/jp/blogs/security/top-2021-aws-security-service-launches-part-1/)
 
 https://wellarchitectedlabs.com/security/
+
+https://www.nojones.net/posts/a-review-of-the-aws-security-maturity-model

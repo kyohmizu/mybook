@@ -30,6 +30,12 @@ https://www.cidersecurity.io/top-10-cicd-security-risks/
 
 https://securityhub.dev/
 
+https://github.com/kris-nova/kush
+
+https://kubernetes.io/docs/concepts/security/rbac-good-practices/
+
+https://github.com/PaloAltoNetworks/rbac-police
+
 ## Tools
 
 https://github.com/FairwindsOps/pluto

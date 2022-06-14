@@ -103,6 +103,7 @@
   - [Forensics](security/forensics.md)
   - [Container Security](security/container.md)
   - [Phishing](security/phishing.md)
+  - [Secure Coding](security/secure-coding.md)
   - [CTI](security/cti.md)
   - [OSINT](security/osint.md)
   - [CSIRT](security/csirt.md)

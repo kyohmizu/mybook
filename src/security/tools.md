@@ -159,10 +159,10 @@ https://github.com/bridgecrewio/checkov
 
 https://github.com/Lissy93/personal-security-checklist
 
-https://github.com/guardrailsio/awesome-golang-security
-
 https://github.com/decalage2/awesome-security-hardening
 
 https://github.com/curiefense/curiefense
 
 https://github.com/containers/bubblewrap
+
+https://github.com/trufflesecurity/trufflehog

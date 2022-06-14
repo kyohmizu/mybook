@@ -6,3 +6,5 @@ https://github.com/kubernetes-sigs/krew-index
 
 https://github.com/replicatedhq/outdated
 
+https://github.com/NimbleArchitect/kubectl-ice
+

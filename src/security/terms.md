@@ -5,6 +5,10 @@
 - Cloud Access Security Broker
 - https://www.cybernet.co.jp/netskope/casb/
 
+### CSPM
+
+- Cloud Security Posture Management
+
 ### SIEM
 
 - Security Information and Event Management

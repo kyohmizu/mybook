@@ -73,3 +73,5 @@ https://paramatter.art/index
 [今日からできるサイバー脅威インテリジェンスの話-実践編-](https://blog.nflabs.jp/entry/2021/09/09/095956)
 
 https://www.nicter.jp/top10
+
+https://github.com/curated-intel/CTI-fundamentals

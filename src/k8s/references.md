@@ -90,6 +90,8 @@ https://github.com/doitintl/kube-no-trouble
 
 https://github.com/kubernetes/git-sync
 
+https://github.com/sigstore/cosign
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

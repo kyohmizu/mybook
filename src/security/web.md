@@ -18,6 +18,10 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
 
 [Webサービスの認可制御の不備によって起こる仕様の脆弱性と対策](https://blog.flatt.tech/entry/authorization_control_security)
 
-### Learning
+## Scanning
+
+https://github.com/ksharinarayanan/SSRFire
+
+## Learning
 
 https://portswigger.net/web-security/all-labs

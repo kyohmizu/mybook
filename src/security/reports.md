@@ -35,3 +35,5 @@ https://io.cyberdefense.jp/entry/antivirus
 [BlackTech 標的型攻撃解析レポート](https://jp.security.ntt/resources/BlackTech_2021.pdf)
 
 [政府機関のコンピュータに数か月潜伏した後、Lockbit ランサムウェアを展開した攻撃者](https://news.sophos.com/ja-jp/2022/04/12/attackers-linger-on-government-agency-computers-before-deploying-lockbit-ransomware-jp/)
+
+[X-Force Threat Intelligence Index 2022](https://www.ibm.com/downloads/cas/ADLMYLAZ)

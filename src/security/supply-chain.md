@@ -2,9 +2,17 @@
 
 https://github.com/chainguard-dev/ssc-reading-list
 
+### IaC
+
+https://about.gitlab.com/blog/2022/06/01/terraform-as-part-of-software-supply-chain-part1-modules-and-providers/
+
 ### Code Repository
 
 https://blog.flatt.tech/entry/github-organization-best-practices
+
+### CI/CD
+
+https://github.com/sethvargo/ratchet
 
 ### SBOM
 
