@@ -85,3 +85,9 @@ https://www.darkreading.com/
 https://www.helpnetsecurity.com/
 
 https://securityzines.com/
+
+https://io.cyberdefense.jp/
+
+https://blog.nicter.jp/
+
+https://www.nicter.jp/

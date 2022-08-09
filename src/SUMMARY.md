@@ -9,6 +9,8 @@
   - [Helm](k8s/helm.md)
   - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
+- DevOps
+  - [References](devops/references.md)
 - Apps
   - [Mattermost](apps/mattermost.md)
 - Prometheus
@@ -39,6 +41,7 @@
   - [General](golang/general.md)
   - [Modules](golang/modules.md)
   - [WASM](golang/wasm.md)
+  - [gRPC](golang/grpc.md)
   - [Goland](golang/goland.md)
   - [Tools](golang/tools.md)
   - [References](golang/references.md)
@@ -113,6 +116,7 @@
   - [Reports](security/reports.md)
   - [Tools](security/tools.md)
   - [Cloud Security](security/cloud.md)
+  - [CI/CD](security/cicd.md)
   - [AWS Security](security/aws.md)
   - [WAF](security/waf.md)
   - [Web](security/web.md)

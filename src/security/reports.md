@@ -37,3 +37,7 @@ https://io.cyberdefense.jp/entry/antivirus
 [政府機関のコンピュータに数か月潜伏した後、Lockbit ランサムウェアを展開した攻撃者](https://news.sophos.com/ja-jp/2022/04/12/attackers-linger-on-government-agency-computers-before-deploying-lockbit-ransomware-jp/)
 
 [X-Force Threat Intelligence Index 2022](https://www.ibm.com/downloads/cas/ADLMYLAZ)
+
+[GitHubからC2サーバーの情報を取得するマルウェアVSingle](https://blogs.jpcert.or.jp/ja/2022/07/vsingle.html)
+
+[Fewer Ransomware Victims Pay, as Median Ransom Falls in Q2 2022](https://www.coveware.com/blog/2022/7/27/fewer-ransomware-victims-pay-as-medium-ransom-falls-in-q2-2022)

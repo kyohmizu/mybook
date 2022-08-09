@@ -1,6 +1,6 @@
 # Tips
 
-### Debug
+## Debug
 
 https://www.terraform.io/docs/internals/debugging.html
 
@@ -9,7 +9,14 @@ export TF_LOG=DEBUG
 export TF_LOG_PATH=./log.txt
 ```
 
-### Lock の解除
+## plan の詳細
+
+```bash
+terraform plan -out=tfplan
+terraform show -json tfplan
+```
+
+## Lock の解除
 
 - 参考：https://www.terraform.io/docs/cli/commands/force-unlock.html
 

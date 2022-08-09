@@ -36,6 +36,14 @@ https://kubernetes.io/docs/concepts/security/rbac-good-practices/
 
 https://github.com/PaloAltoNetworks/rbac-police
 
+https://github.com/cncf/financial-user-group/tree/main/projects/k8s-threat-model
+
+https://github.com/metalbear-co/mirrord
+
+## eBPF
+
+https://www.form3.tech/engineering/content/bypassing-ebpf-tools
+
 ## Tools
 
 https://github.com/FairwindsOps/pluto

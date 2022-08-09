@@ -16,11 +16,23 @@ https://github.com/prowler-cloud/prowler
 
 https://github.com/sbasu7241/AWS-Threat-Simulation-and-Detection
 
+https://github.com/nccgroup/PMapper
+
+https://github.com/PaloAltoNetworks/IAM-Deescalate
+
 ### Maturity Model
 
 https://maturitymodel.security.aws.dev/en/model/
 
 https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf
+
+### CloudTrail
+
+https://bishopfox.com/blog/cloudtrail-pivot-to-aws-accounts
+
+### IAM
+
+https://blog.gitguardian.com/aws-iam-security-best-practices/
 
 ### 参考
 
@@ -33,3 +45,7 @@ https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf
 https://wellarchitectedlabs.com/security/
 
 https://www.nojones.net/posts/a-review-of-the-aws-security-maturity-model
+
+https://docs.aws.amazon.com/ja_jp/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html#controls-categorized-service
+
+https://www.vectra.ai/blogpost/abusing-the-replicator-silently-exfiltrating-data-with-the-aws-s3-replication-service

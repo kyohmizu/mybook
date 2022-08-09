@@ -40,6 +40,6 @@ https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf
 
 https://d3fend.mitre.org/
 
-# CAPEC
+# CAPEC　（Common Attack Pattern Enumerations and Classifications）
 
 https://capec.mitre.org/

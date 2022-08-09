@@ -6,15 +6,21 @@ https://www.first.org/
 
 [日本シーサート協議会](https://www.nca.gr.jp/)
 
-### 評価
+## Alert & Detection
+
+[Democratizing Security Detection](https://blog.palantir.com/democratizing-security-detection-71c689b667a5)
+
+[Alerting and Detection Strategy Framework](https://blog.palantir.com/alerting-and-detection-strategy-framework-52dc33722df2)
+
+## 評価
 
 https://opencsirt.org/csirt-maturity/sim3-and-references/
 
-### SOAR
+## SOAR
 
 https://github.com/correlatedsecurity/Awesome-SOAR
 
-### 参考
+## 参考
 
 [CSIRTマテリアル - JPCERT](https://www.jpcert.or.jp/csirt_material/)
 

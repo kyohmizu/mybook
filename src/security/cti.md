@@ -10,7 +10,9 @@ https://bazaar.abuse.ch/
 
 https://urlhaus.abuse.ch/
 
-https://www.phishtank.com/
+https://any.run/
+
+https://www.phishtank.com/ (https://phishtank.org/)
 
 ### IP Address Search
 
@@ -67,6 +69,10 @@ https://apt.thaicert.or.th/cgi-bin/aptgroups.cgi
 ### Analysis
 
 https://paramatter.art/index
+
+### Search
+
+https://search.brave.com/goggles
 
 ### 参考
 

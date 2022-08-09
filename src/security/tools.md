@@ -166,3 +166,7 @@ https://github.com/curiefense/curiefense
 https://github.com/containers/bubblewrap
 
 https://github.com/trufflesecurity/trufflehog
+
+https://github.com/dropbox/zxcvbn
+
+https://github.com/GitGuardian/ggshield

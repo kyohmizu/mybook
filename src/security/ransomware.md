@@ -10,6 +10,8 @@ https://chuongdong.com/reverse%20engineering/2022/03/19/LockbitRansomware/
 
 https://www.bleepingcomputer.com/news/security/fbi-avoslocker-ransomware-targets-us-critical-infrastructure/
 
+https://blog.talosintelligence.com/2022/06/avoslocker-new-arsenal.html
+
 ### Public Cloud
 
 https://unit42.paloaltonetworks.com/ransomware-in-public-clouds/

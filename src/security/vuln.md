@@ -47,3 +47,5 @@ https://github.com/roottusk/vapi
 [KNOWN EXPLOITED VULNERABILITIES CATALOG](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
 [0day “In the Wild”](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1123292625)
+
+https://zerodium.com/index.html
