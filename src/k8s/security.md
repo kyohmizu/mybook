@@ -8,11 +8,15 @@ https://github.com/PaloAltoNetworks/rbac-police
 
 ## References
 
+https://github.com/OWASP/www-project-kubernetes-top-ten
+
 https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-1
 
 https://www.cyberark.com/resources/threat-research-blog/attacking-kubernetes-clusters-through-your-network-plumbing-part-2
 
 https://github.com/armosec/kubescape
+
+https://github.com/derailed/popeye
 
 https://github.com/cncf/financial-user-group/tree/master/projects/k8s-threat-model
 

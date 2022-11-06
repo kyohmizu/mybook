@@ -91,3 +91,7 @@ https://io.cyberdefense.jp/
 https://blog.nicter.jp/
 
 https://www.nicter.jp/
+
+https://securelist.com/
+
+https://www.cisa.gov/stopransomware

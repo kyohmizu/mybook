@@ -127,6 +127,14 @@ https://www.cisa.gov/free-cybersecurity-services-and-tools
 
 https://www.blueteamsacademy.com/top20/
 
+https://www.traceable.ai/
+
+https://www.araalinetworks.com/araali-lens
+
+https://www.gigamon.com/
+
+https://deepfence.io/threatmapper/
+
 ### OSS
 
 https://github.com/awslabs/git-secrets
@@ -170,3 +178,5 @@ https://github.com/trufflesecurity/trufflehog
 https://github.com/dropbox/zxcvbn
 
 https://github.com/GitGuardian/ggshield
+
+https://github.com/cisagov/cset

@@ -41,3 +41,9 @@ https://io.cyberdefense.jp/entry/antivirus
 [GitHubからC2サーバーの情報を取得するマルウェアVSingle](https://blogs.jpcert.or.jp/ja/2022/07/vsingle.html)
 
 [Fewer Ransomware Victims Pay, as Median Ransom Falls in Q2 2022](https://www.coveware.com/blog/2022/7/27/fewer-ransomware-victims-pay-as-medium-ransom-falls-in-q2-2022)
+
+[Andariel deploys DTrack and Maui ransomware](https://securelist.com/andariel-deploys-dtrack-and-maui-ransomware/107063/)
+
+[2021 Top Malware Strains](https://www.cisa.gov/uscert/sites/default/files/publications/aa22-216a-2021-top-malware-strains.pdf)
+
+[Ransom CartelランサムウェアにREvilとの潜在的関連性](https://unit42.paloaltonetworks.jp/ransom-cartel-ransomware/)

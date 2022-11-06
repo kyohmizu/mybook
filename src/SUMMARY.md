@@ -26,6 +26,7 @@
   - [zsh](linux/zsh.md)
   - [eBPF](linux/ebpf.md)
   - [Tips](linux/tips.md)
+  - [Learning](linux/learning.md)
   - [References](linux/references.md)
 - macOS
   - [Kernel](macos/kernel.md)
@@ -48,6 +49,7 @@
 - Terraform
   - [General](terraform/general.md)
   - [Functions](terraform/functions.md)
+  - [AWS](terraform/aws.md)
   - [sops terraform provider](terraform/sops.md)
   - [terraform plan で sensitive values を参照する](terraform/plan-sensitive.md)
   - [Tips](terraform/tips.md)
@@ -120,6 +122,7 @@
   - [AWS Security](security/aws.md)
   - [WAF](security/waf.md)
   - [Web](security/web.md)
+  - [E-Mail](security/email.md)
   - [Security Vendors](security/vendor.md)
   - [EDR](security/edr.md)
   - [macOS](security/mac.md)

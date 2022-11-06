@@ -6,7 +6,13 @@ https://www.cisecurity.org/benchmark/kubernetes/
 
 https://sysdig.com/blog/container-security-best-practices/
 
+https://github.com/mrtc0/seccamp-2022
+
 # k8s
+
+https://kubernetes.io/docs/concepts/security/api-server-bypass-risks/
+
+https://github.com/OWASP/www-project-kubernetes-top-ten
 
 https://github.com/cncf/financial-user-group/tree/master/projects/k8s-threat-model
 
@@ -40,6 +46,8 @@ https://github.com/cncf/financial-user-group/tree/main/projects/k8s-threat-model
 
 https://github.com/metalbear-co/mirrord
 
+https://github.com/derailed/popeye
+
 ## eBPF
 
 https://www.form3.tech/engineering/content/bypassing-ebpf-tools
@@ -61,3 +69,5 @@ https://github.com/zegl/kube-score
 https://github.com/cilium/tetragon
 
 https://github.com/falcosecurity/falco
+
+https://github.com/owenrumney/lazytrivy

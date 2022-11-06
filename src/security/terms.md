@@ -1,5 +1,7 @@
 # 用語集
 
+https://www.sans.org/security-resources/glossary-of-terms/
+
 ### CASB
 
 - Cloud Access Security Broker

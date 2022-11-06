@@ -74,6 +74,10 @@ https://paramatter.art/index
 
 https://search.brave.com/goggles
 
+### Hunting
+
+https://github.com/Yamato-Security/hayabusa
+
 ### 参考
 
 [今日からできるサイバー脅威インテリジェンスの話-実践編-](https://blog.nflabs.jp/entry/2021/09/09/095956)

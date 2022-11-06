@@ -9,3 +9,5 @@ https://docs.aws.amazon.com/ja_jp/wellarchitected/latest/saas-lens/wellarchitect
 ### Tools
 
 https://github.com/iann0036/iamfast
+
+https://github.com/awslabs/aws-security-assessment-solution
