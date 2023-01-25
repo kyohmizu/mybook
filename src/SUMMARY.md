@@ -7,6 +7,7 @@
   - [Policy](k8s/policy.md)
   - [Security](k8s/security.md)
   - [Helm](k8s/helm.md)
+  - [EKS](k8s/eks.md)
   - [Tips](k8s/tips.md)
   - [References](k8s/references.md)
 - DevOps
@@ -105,6 +106,7 @@
   - [Learning](security/learning.md)
   - [Incident](security/incident.md)
   - [CTF](security/ctf.md)
+  - [Blue Team](security/blue.md)
   - [Forensics](security/forensics.md)
   - [Container Security](security/container.md)
   - [Phishing](security/phishing.md)
@@ -142,6 +144,7 @@
   - [Srping4shell](secreports/spring4shell.md)
 - Programming
   - [コンテスト](programming/contests.md)
+  - [Learning](programming/learning.md)
   - [References](programming/references.md)
 - Computer Science
   - [References](cs/references.md)

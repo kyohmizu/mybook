@@ -94,6 +94,8 @@ https://github.com/sigstore/cosign
 
 https://github.com/plexsystems/konstraint
 
+https://github.com/openclarity/kubeclarity
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

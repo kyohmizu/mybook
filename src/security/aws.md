@@ -26,6 +26,8 @@ https://github.com/awslabs/aws-security-assessment-solution
 
 https://github.com/matanolabs/matano
 
+https://github.com/stelligent/cfn_nag
+
 ## Maturity Model
 
 https://maturitymodel.security.aws.dev/en/model/

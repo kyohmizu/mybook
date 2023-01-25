@@ -26,6 +26,20 @@ https://hackertarget.com/top-million-site-list-download/
 
 https://www.v2.openresolver.jp/
 
+https://dnslytics.com/
+
+## URL
+
+https://www.getlinkinfo.com/
+
+https://www.expandurl.net/
+
+https://lab.syncer.jp/Tool/URL-Checker/
+
+https://securl.nu/
+
+https://re.i0.pt/
+
 ## Tools
 
 https://github.com/robertdavidgraham/masscan

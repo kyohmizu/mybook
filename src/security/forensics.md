@@ -24,6 +24,8 @@ https://malapi.io/
 
 https://github.com/Johnng007/Live-Forensicator
 
+https://github.com/Yamato-Security/hayabusa
+
 ### macOS
 
 [Workshop: An Introduction to macOS Forensics with Open Source Software](https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_workshop_macOS-forensic_jp.pdf)

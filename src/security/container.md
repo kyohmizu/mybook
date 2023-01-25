@@ -48,6 +48,8 @@ https://github.com/metalbear-co/mirrord
 
 https://github.com/derailed/popeye
 
+https://github.com/openclarity/kubeclarity
+
 ## eBPF
 
 https://www.form3.tech/engineering/content/bypassing-ebpf-tools

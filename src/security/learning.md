@@ -20,6 +20,8 @@ https://github.com/RhinoSecurityLabs/cloudgoat
 
 https://github.com/arnica-ext/GitGoat
 
+[セキュリティエンジニアになり、そこから2年間分の勉強内容と参考になった資料とか](https://brutalgoblin.hatenablog.jp/entry/2020/02/15/153805)
+
 ## Hack The Box
 
 [Cap](https://nepcodex.com/2021/06/cap-walkthrough-hackthebox-writeup/)
