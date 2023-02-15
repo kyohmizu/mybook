@@ -22,6 +22,8 @@ https://github.com/arnica-ext/GitGoat
 
 [セキュリティエンジニアになり、そこから2年間分の勉強内容と参考になった資料とか](https://brutalgoblin.hatenablog.jp/entry/2020/02/15/153805)
 
+[セキュリティエンジニアのための English Reading](https://www.ipa.go.jp/icscoe/program/core_human_resource/final_project/english-reading.html)
+
 ## Hack The Box
 
 [Cap](https://nepcodex.com/2021/06/cap-walkthrough-hackthebox-writeup/)
@@ -29,3 +31,8 @@ https://github.com/arnica-ext/GitGoat
 ## CISSP
 
 https://www.isc2chapter.jp/docs
+
+
+## Training
+
+https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material

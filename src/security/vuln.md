@@ -40,6 +40,10 @@ https://github.com/vulhub/vulhub
 
 https://github.com/roottusk/vapi
 
+## Scanning Tools
+
+https://informationsecuritybuzz.com/20-powerful-vulnerability-scanning-tools-in-2023/
+
 ### 参考
 
 [ランサムウェア攻撃者が利用する脆弱性リストメモ - ninja csirt](https://csirt.ninja/?p=1883)
