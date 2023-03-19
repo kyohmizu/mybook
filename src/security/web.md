@@ -1,14 +1,6 @@
 # Web Security
 
-https://portswigger.net/web-security
-
-https://portswigger.net/web-security/request-smuggling
-
-https://portswigger.net/web-security/web-cache-poisoning
-
-https://portswigger.net/web-security/host-header
-
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+https://github.com/riramar/Web-Attack-Cheat-Sheet
 
 [Webサービスにおけるログイン機能の仕様とセキュリティ観点](https://flattsecurity.hatenablog.com/entry/login_logic_security)
 
@@ -18,10 +10,30 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
 
 [Webサービスの認可制御の不備によって起こる仕様の脆弱性と対策](https://blog.flatt.tech/entry/authorization_control_security)
 
+## Programming
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+
 ## Scanning
 
 https://github.com/ksharinarayanan/SSRFire
 
+## Tools
+
+[Parameter discovery tools comparison](https://sh1yo.art/x8stats/)
+
 ## Learning
 
 https://portswigger.net/web-security/all-labs
+
+## References
+
+https://ngailong.wordpress.com/author/ngalog/
+
+https://blog.orange.tw/
+
+[External SSRF and Local File Read via video upload due to vulnerable FFmpeg HLS processing](https://hackerone.com/reports/1062888)
+
+[HubSpot Full Account Takeover in Bug Bounty](https://omar0x01.medium.com/hubspot-full-account-takeover-in-bug-bounty-4e2047914ab5)
+
+[多要素認証のバイパスが可能な攻撃「Pass-The-Cookie」について](https://jpn.nec.com/cybersecurity/blog/221007/index.html)

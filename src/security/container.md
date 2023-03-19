@@ -10,6 +10,8 @@ https://github.com/mrtc0/seccamp-2022
 
 # k8s
 
+https://owasp.org/www-project-kubernetes-top-ten/
+
 https://kubernetes.io/docs/concepts/security/api-server-bypass-risks/
 
 https://github.com/OWASP/www-project-kubernetes-top-ten

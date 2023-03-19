@@ -89,3 +89,5 @@ https://github.com/OpenCTI-Platform/opencti
 https://www.nicter.jp/top10
 
 https://github.com/curated-intel/CTI-fundamentals
+
+[urlscan.ioとShodanでお手軽にマルウェアの通信先サーバを調べる](https://eng-blog.iij.ad.jp/archives/17827)

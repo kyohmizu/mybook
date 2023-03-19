@@ -96,6 +96,8 @@ https://github.com/plexsystems/konstraint
 
 https://github.com/openclarity/kubeclarity
 
+https://github.com/groundcover-com/caretta
+
 ### Blogs
 
 [Last Week In Kubernetes Development](http://lwkd.info/)

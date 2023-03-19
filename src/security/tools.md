@@ -91,6 +91,18 @@ https://github.com/mbechler/marshalsec
 
 https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/7/html/security_guide/sec-using-aide
 
+## Secret Detection
+
+https://github.com/zricethezav/gitleaks
+
+https://github.com/trufflesecurity/truffleHog
+
+https://github.com/tillson/git-hound
+
+https://github.com/americanexpress/earlybird
+
+https://github.com/mazen160/secrets-patterns-db
+
 ### Services & Apps
 
 https://www.crowdstrike.com/
@@ -147,10 +159,6 @@ https://github.com/cytopia/pwncat
 
 https://github.com/Cisco-Talos/clamav
 
-https://github.com/trufflesecurity/truffleHog
-
-https://github.com/tillson/git-hound
-
 https://github.com/decalage2/oletools
 
 https://github.com/decalage2/ViperMonkey
@@ -172,8 +180,6 @@ https://github.com/decalage2/awesome-security-hardening
 https://github.com/curiefense/curiefense
 
 https://github.com/containers/bubblewrap
-
-https://github.com/trufflesecurity/trufflehog
 
 https://github.com/dropbox/zxcvbn
 

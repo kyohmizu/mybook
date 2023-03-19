@@ -10,6 +10,10 @@ https://superuser.com/questions/188058/which-ports-are-considered-unsafe-by-chro
 
 https://haveibeenpwned.com/
 
+## ガイドライン
+
+[ECサイト構築・運用セキュリティガイドライン](https://www.ipa.go.jp/security/guide/vuln/guideforecsite.html)
+
 ### Web サーバーの情報
 
 https://news.netcraft.com/

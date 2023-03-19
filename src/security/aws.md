@@ -28,6 +28,8 @@ https://github.com/matanolabs/matano
 
 https://github.com/stelligent/cfn_nag
 
+[CloudGPT - Use ChatGPT to analyze AWS policies for vulnerabilities](https://gist.github.com/ustayready/c29e9f9dca0a0b8170fbdfec11afc349)
+
 ## Maturity Model
 
 https://maturitymodel.security.aws.dev/en/model/
@@ -49,6 +51,10 @@ https://sidechannel.blog/en/unwanted-permissions-that-may-impact-security-when-u
 ## Incident Response
 
 https://www.chrisfarris.com/post/aws-ir/
+
+## Training
+
+https://github.com/ine-labs/AWSGoat
 
 ## 参考
 

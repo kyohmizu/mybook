@@ -22,6 +22,8 @@ https://vuldb.com/
 
 [IPA - 共通脆弱性タイプ一覧CWE概説](https://www.ipa.go.jp/security/vuln/CWE.html)
 
+https://github.com/JPCERTCC/cwe-1003-ja
+
 ### 脆弱性調査ログ
 
 ```
