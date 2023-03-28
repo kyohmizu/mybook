@@ -47,3 +47,5 @@ https://io.cyberdefense.jp/entry/antivirus
 [2021 Top Malware Strains](https://www.cisa.gov/uscert/sites/default/files/publications/aa22-216a-2021-top-malware-strains.pdf)
 
 [Ransom CartelランサムウェアにREvilとの潜在的関連性](https://unit42.paloaltonetworks.jp/ransom-cartel-ransomware/)
+
+[SPOTLIGHT REPORT 2023 RANSOMWARE](https://cybersecurityworks.com/howdymanage/uploads/file/Ransomware%20Report%202023_compressed.pdf)

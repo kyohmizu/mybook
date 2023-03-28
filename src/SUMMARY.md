@@ -110,6 +110,7 @@
   - [CTF](security/ctf.md)
   - [Blue Team](security/blue.md)
   - [Forensics](security/forensics.md)
+  - [Framework](security/framework.md)
   - [Container Security](security/container.md)
   - [Phishing](security/phishing.md)
   - [Secure Coding](security/secure-coding.md)

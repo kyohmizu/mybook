@@ -56,6 +56,10 @@ https://www.chrisfarris.com/post/aws-ir/
 
 https://github.com/ine-labs/AWSGoat
 
+## Hacking
+
+https://securitylabs.datadoghq.com/articles/bypass-cloudtrail-aws-service-catalog-and-other/
+
 ## 参考
 
 [Amazon GuardDuty Enhances Detection of EC2 Instance Credential Exfiltration](https://aws.amazon.com/jp/blogs/aws/amazon-guardduty-enhances-detection-of-ec2-instance-credential-exfiltration/)

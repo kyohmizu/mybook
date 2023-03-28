@@ -6,6 +6,10 @@ https://chuongdong.com/reverse%20engineering/2022/03/19/LockbitRansomware/
 
 [ランサムウェア「LockBit2.0」の内部構造を紐解く](https://www.mbsd.jp/research/20211019/blog/)
 
+## Lockbit 3.0
+
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a
+
 ## AvosLocker
 
 https://www.bleepingcomputer.com/news/security/fbi-avoslocker-ransomware-targets-us-critical-infrastructure/
