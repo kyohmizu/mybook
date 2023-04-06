@@ -153,6 +153,9 @@
   - [コンテスト](programming/contests.md)
   - [Learning](programming/learning.md)
   - [References](programming/references.md)
+- AI
+  - [画像AI](ai/aiimage.md)
+  - [チャットAI](ai/aichat.md)
 - Computer Science
   - [References](cs/references.md)
 - SQL
