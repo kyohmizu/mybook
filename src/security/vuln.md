@@ -56,6 +56,12 @@ https://informationsecuritybuzz.com/20-powerful-vulnerability-scanning-tools-in-
 
 https://github.com/projectdiscovery/nuclei-templates
 
+https://github.com/Bywalks/DarkAngel
+
+##　脆弱性診断
+
+[細かすぎるけど伝わってほしい脆弱性診断手法ドキュメント](https://webapppentestguidelines.github.io/newtechtestdoc/)
+
 ## 参考
 
 [ランサムウェア攻撃者が利用する脆弱性リストメモ - ninja csirt](https://csirt.ninja/?p=1883)

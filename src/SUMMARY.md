@@ -24,6 +24,8 @@
   - [awk](linux/awk.md)
   - [crontab](linux/crontab.md)
   - [curl](linux/curl.md)
+  - [tmux](linux/tmux.md)
+  - [metasploit](linux/metasploit.md)
   - [zsh](linux/zsh.md)
   - [eBPF](linux/ebpf.md)
   - [Tips](linux/tips.md)
