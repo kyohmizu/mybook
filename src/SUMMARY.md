@@ -61,6 +61,7 @@
   - [References](sre/references.md)
 - GCP
   - [General](gcp/general.md)
+  - [Architecture](gcp/arch.md)
   - [Commands](gcp/command.md)
   - [Load Balancer](gcp/lb.md)
   - [TLS for Internal Ingress](gcp/cert.md)
@@ -72,6 +73,7 @@
   - [References](gcp/references.md)
 - AWS
   - [General](aws/general.md)
+  - [Architecture](aws/arch.md)
   - [Commands](aws/command.md)
   - [IAM](aws/iam.md)
   - [Switch Role](aws/switch-role.md)

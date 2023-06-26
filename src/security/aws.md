@@ -48,6 +48,10 @@ https://github.com/awslabs/terraform-iam-policy-validator
 
 https://sidechannel.blog/en/unwanted-permissions-that-may-impact-security-when-using-the-readonlyaccess-policy-in-aws/
 
+##　EKS
+
+https://aws.github.io/aws-eks-best-practices/security/docs/
+
 ## Incident Response
 
 https://www.chrisfarris.com/post/aws-ir/
@@ -79,3 +83,5 @@ https://www.vectra.ai/blogpost/abusing-the-replicator-silently-exfiltrating-data
 https://github.com/ramimac/aws-customer-security-incidents
 
 https://github.com/aws-samples/aws-customer-playbook-framework
+
+[AWS Identity Center (formerly known as AWS SSO): A Guide to Privilege Escalation and Identity and Access Management](https://www.cloudquery.io/blog/aws-priv-esc-identity-center)

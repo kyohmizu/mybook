@@ -2,6 +2,8 @@
 
 https://superuser.com/questions/188058/which-ports-are-considered-unsafe-by-chrome
 
+[Application Security Cheat Sheet](https://0xn3va.gitbook.io/cheat-sheets/)
+
 ### OWASP
 
 [OWASP Top 10](https://owasp.org/www-project-top-ten/)

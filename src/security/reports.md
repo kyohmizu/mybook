@@ -49,3 +49,5 @@ https://io.cyberdefense.jp/entry/antivirus
 [Ransom CartelランサムウェアにREvilとの潜在的関連性](https://unit42.paloaltonetworks.jp/ransom-cartel-ransomware/)
 
 [SPOTLIGHT REPORT 2023 RANSOMWARE](https://cybersecurityworks.com/howdymanage/uploads/file/Ransomware%20Report%202023_compressed.pdf)
+
+[FortiMailを侵入経路としたインシデントについての事例紹介](https://insight-jp.nttsecurity.com/post/102i448/fortimail)

@@ -1,5 +1,7 @@
 # Web Security
 
+[安全なウェブサイトの作り方 - IPA](https://www.ipa.go.jp/security/vuln/websecurity/index.html)
+
 https://github.com/riramar/Web-Attack-Cheat-Sheet
 
 [Webサービスにおけるログイン機能の仕様とセキュリティ観点](https://flattsecurity.hatenablog.com/entry/login_logic_security)
@@ -25,6 +27,10 @@ https://github.com/ksharinarayanan/SSRFire
 ## Learning
 
 https://portswigger.net/web-security/all-labs
+
+## SSRF
+
+https://blog.includesecurity.com/2023/03/mitigating-ssrf-in-2023/
 
 ## References
 

@@ -4,6 +4,8 @@ https://glossary.cncf.io/
 
 https://github.com/aws/aws-eks-best-practices/
 
+[Kubernetes First Contribution Road Map](https://github.com/mochizuki875/KubernetesFirstContributionRoadMap)
+
 ### OSS
 
 https://tutorials.keptn.sh/
@@ -97,6 +99,8 @@ https://github.com/plexsystems/konstraint
 https://github.com/openclarity/kubeclarity
 
 https://github.com/groundcover-com/caretta
+
+https://github.com/kuasar-io/kuasar
 
 ### Blogs
 

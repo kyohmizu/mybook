@@ -28,13 +28,23 @@ https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 [開発者が知っておきたい「XSSの発生原理以外」の話](https://blog.flatt.tech/entry/xss_risk)
 
+## SSRF
+
+https://blog.includesecurity.com/2023/03/mitigating-ssrf-in-2023/
+
 ## SQL Injection
 
 https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet
 
+https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
+
 ## Trojan Source
 
 [StackOverflowからのコピペをやめろ。今すぐにだ。 - Qiita](https://qiita.com/rana_kualu/items/3b03961deb003a8a2f1d)
+
+## Fetch Diversion
+
+https://acut3.github.io/bug-bounty/2023/01/03/fetch-diversion.html
 
 ## ReDoS
 

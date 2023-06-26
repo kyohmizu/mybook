@@ -52,6 +52,8 @@ https://github.com/derailed/popeye
 
 https://github.com/openclarity/kubeclarity
 
+https://aws.github.io/aws-eks-best-practices/security/docs/
+
 ## eBPF
 
 https://www.form3.tech/engineering/content/bypassing-ebpf-tools
