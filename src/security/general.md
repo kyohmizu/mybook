@@ -18,6 +18,10 @@ https://www.jpcert.or.jp/
 
 [私のセキュリティ情報収集法を整理してみた（2023年版） - Fox on Security](https://foxsecurity.hatenablog.com/entry/2023/01/03/100045)
 
+[セキュリティエンジニアを目指す人に知っておいてほしい制度やガイドライン・サービスのまとめ](https://engineers.ffri.jp/entry/2023/07/24/110037)
+
+[Security Event in Japan（イベントカレンダー）](https://calendar.google.com/calendar/u/0/embed?src=4u9fvij6ul4oug11bcphr8ofb0@group.calendar.google.com)
+
 ## Information（英語）
 
 https://www.nist.gov/

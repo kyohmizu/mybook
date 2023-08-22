@@ -10,6 +10,8 @@ https://github.com/mrtc0/seccamp-2022
 
 # k8s
 
+https://github.com/cncf/tag-security
+
 https://owasp.org/www-project-kubernetes-top-ten/
 
 https://kubernetes.io/docs/concepts/security/api-server-bypass-risks/
@@ -53,6 +55,10 @@ https://github.com/derailed/popeye
 https://github.com/openclarity/kubeclarity
 
 https://aws.github.io/aws-eks-best-practices/security/docs/
+
+https://github.com/kubernetes-sigs/security-profiles-operator
+
+[Top 15 Kubectl plugins for security engineers](https://sysdig.com/blog/top-15-kubectl-plugins-for-security-engineers/)
 
 ## eBPF
 

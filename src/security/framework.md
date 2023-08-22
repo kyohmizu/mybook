@@ -17,3 +17,11 @@ https://slsa.dev/
 https://github.com/cncf/tag-security/tree/main/supply-chain-security/supply-chain-security-paper
 
 https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf
+
+## Software Bill of Materials (SBOM)
+
+[ソフトウェア管理に向けたSBOM（Software Bill of Materials）の導入に関する手引](https://www.meti.go.jp/press/2023/07/20230728004/20230728004.html)
+
+## Checklist
+
+[サイバーセキュリティ経営可視化ツール](https://www.ipa.go.jp/security/economics/checktool.html)

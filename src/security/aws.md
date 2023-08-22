@@ -8,6 +8,10 @@ https://aws.amazon.com/jp/blogs/security/
 
 [サーバーレスのセキュリティリスク - AWS Lambdaにおける脆弱性攻撃と対策](https://blog.flatt.tech/entry/lambda_and_serverless_security)
 
+## GuardDuty
+
+https://github.com/awslabs/amazon-guardduty-tester
+
 ## Tools
 
 https://github.com/nozaq/terraform-aws-secure-baseline
@@ -56,9 +60,15 @@ https://aws.github.io/aws-eks-best-practices/security/docs/
 
 https://www.chrisfarris.com/post/aws-ir/
 
+## Log Analisys
+
+https://github.com/invictus-ir/Sigma-AWS
+
 ## Training
 
 https://github.com/ine-labs/AWSGoat
+
+https://github.com/iknowjason/Awesome-CloudSec-Labs
 
 ## Hacking
 

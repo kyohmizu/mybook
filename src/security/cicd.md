@@ -11,3 +11,9 @@ https://github.com/tindersec/gh-workflow-auditor
 ## Zero Touch Production
 
 [Testing Zero Touch Production Platforms and Safe Proxies](https://blog.doyensec.com//2023/05/04/testing-ztp-platforms-a-primer.html)
+
+## Learning
+
+https://github.com/cider-security-research/cicd-goat
+
+https://github.com/step-security/github-actions-goat

@@ -68,6 +68,10 @@ https://github.com/projectdiscovery/nuclei-templates
 
 https://github.com/Bywalks/DarkAngel
 
+https://github.com/assetnote/surf
+
+https://github.com/capture0x/LFI-FINDER
+
 ##　脆弱性診断
 
 [細かすぎるけど伝わってほしい脆弱性診断手法ドキュメント](https://webapppentestguidelines.github.io/newtechtestdoc/)
@@ -83,3 +87,5 @@ https://github.com/Bywalks/DarkAngel
 https://zerodium.com/index.html
 
 https://securityonline.info/category/news/vulnerability/
+
+[Open Source Insights](https://deps.dev/)

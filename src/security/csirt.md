@@ -6,6 +6,8 @@ https://www.first.org/
 
 [日本シーサート協議会](https://www.nca.gr.jp/)
 
+[FIRST CSIRT Services Framework v2.1 日本語版](https://www.first.org/standards/frameworks/csirts/FIRST_CSIRT_Services_Framework_v2.1.0_ja.pdf)
+
 ## Alert & Detection
 
 [Democratizing Security Detection](https://blog.palantir.com/democratizing-security-detection-71c689b667a5)

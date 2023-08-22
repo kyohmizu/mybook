@@ -18,6 +18,8 @@ https://github.com/arnica-ext/GitGoat
 
 https://github.com/ine-labs/AWSGoat
 
+https://github.com/step-security/github-actions-goat
+
 https://github.com/iknowjason/Awesome-CloudSec-Labs
 
 [セキュリティエンジニアになり、そこから2年間分の勉強内容と参考になった資料とか](https://brutalgoblin.hatenablog.jp/entry/2020/02/15/153805)

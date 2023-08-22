@@ -20,6 +20,8 @@ https://www.mitiga.io/blog/misconfiguration-hidden-dangers-cloud-control-plane
 
 [Enumeration and lateral movement in GCP environments](https://infosecwriteups.com/enumeration-and-lateral-movement-in-gcp-environments-c3b82d342794)
 
+[セキュリティ チェックリスト](https://support.google.com/a/answer/9184226)
+
 ## Logging
 
 [Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations](https://www.mandiant.com/resources/blog/cloud-bad-log-configurations)
