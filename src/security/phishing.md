@@ -20,6 +20,10 @@ https://github.com/zerofox-oss/phishpond
 
 https://github.com/mrd0x/BITB
 
+https://github.com/kgretzky/evilginx2
+
+https://github.com/An0nUD4Y/Evilginx2-Phishlets
+
 ## Training
 
 https://phishingquiz.withgoogle.com/

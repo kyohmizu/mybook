@@ -22,6 +22,8 @@ https://github.com/step-security/github-actions-goat
 
 https://github.com/iknowjason/Awesome-CloudSec-Labs
 
+[6 free resources for getting started in cybersecurity](https://www.helpnetsecurity.com/2023/09/05/free-resources-getting-started-in-cybersecurity/)
+
 [セキュリティエンジニアになり、そこから2年間分の勉強内容と参考になった資料とか](https://brutalgoblin.hatenablog.jp/entry/2020/02/15/153805)
 
 [セキュリティエンジニアのための English Reading](https://www.ipa.go.jp/icscoe/program/core_human_resource/final_project/english-reading.html)

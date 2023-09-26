@@ -16,6 +16,8 @@ https://haveibeenpwned.com/
 
 [ECサイト構築・運用セキュリティガイドライン](https://www.ipa.go.jp/security/guide/vuln/guideforecsite.html)
 
+[サイバーセキュリティ関係法令Q＆Aハンドブック](https://security-portal.nisc.go.jp/guidance/law_handbook.html)
+
 ### Web サーバーの情報
 
 https://news.netcraft.com/

@@ -32,6 +32,10 @@ https://portswigger.net/web-security/all-labs
 
 https://blog.includesecurity.com/2023/03/mitigating-ssrf-in-2023/
 
+## Tools
+
+https://github.com/RenwaX23/XSSTRON
+
 ## References
 
 https://ngailong.wordpress.com/author/ngalog/

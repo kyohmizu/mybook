@@ -26,6 +26,10 @@ https://www.mitiga.io/blog/misconfiguration-hidden-dangers-cloud-control-plane
 
 [Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations](https://www.mandiant.com/resources/blog/cloud-bad-log-configurations)
 
+## Tools
+
+https://github.com/BishopFox/cloudfox
+
 ## 参考
 
 [What to look for when reviewing a company's infrastructure](https://www.marcolancini.it/2022/blog-cloud-security-infrastructure-review/)
