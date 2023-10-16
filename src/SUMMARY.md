@@ -78,6 +78,7 @@
   - [Commands](aws/command.md)
   - [IAM](aws/iam.md)
   - [Switch Role](aws/switch-role.md)
+  - [Network](aws/network.md)
   - [Amazon Inspector](aws/inspector.md)
   - [References](aws/references.md)
 - Network
@@ -117,6 +118,7 @@
   - [CTF](security/ctf.md)
   - [Blue Team](security/blue.md)
   - [Forensics](security/forensics.md)
+  - [Bug Bounty](security/bugbounty.md)
   - [Framework](security/framework.md)
   - [Container Security](security/container.md)
   - [Phishing](security/phishing.md)
