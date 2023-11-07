@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Commands · HonKit</title>
+        <title>General · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.7.5">
@@ -56,10 +56,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="iam.html" />
-    
-    
-    <link rel="prev" href="arch.html" />
     
 
     </head>
@@ -115,9 +111,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="../container/general.html">
+        <li class="chapter active" data-level="1.2.1" data-path="general.html">
             
-                <a href="../container/general.html">
+                <a href="general.html">
             
                     
                     General
@@ -1175,9 +1171,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.14.1" data-path="general.html">
+        <li class="chapter " data-level="1.14.1" data-path="../aws/general.html">
             
-                <a href="general.html">
+                <a href="../aws/general.html">
             
                     
                     General
@@ -1188,9 +1184,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.2" data-path="arch.html">
+        <li class="chapter " data-level="1.14.2" data-path="../aws/arch.html">
             
-                <a href="arch.html">
+                <a href="../aws/arch.html">
             
                     
                     Architecture
@@ -1201,9 +1197,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.14.3" data-path="command.html">
+        <li class="chapter " data-level="1.14.3" data-path="../aws/command.html">
             
-                <a href="command.html">
+                <a href="../aws/command.html">
             
                     
                     Commands
@@ -1214,9 +1210,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.4" data-path="iam.html">
+        <li class="chapter " data-level="1.14.4" data-path="../aws/iam.html">
             
-                <a href="iam.html">
+                <a href="../aws/iam.html">
             
                     
                     IAM
@@ -1227,9 +1223,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.5" data-path="switch-role.html">
+        <li class="chapter " data-level="1.14.5" data-path="../aws/switch-role.html">
             
-                <a href="switch-role.html">
+                <a href="../aws/switch-role.html">
             
                     
                     Switch Role
@@ -1240,9 +1236,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.6" data-path="network.html">
+        <li class="chapter " data-level="1.14.6" data-path="../aws/network.html">
             
-                <a href="network.html">
+                <a href="../aws/network.html">
             
                     
                     Network
@@ -1253,9 +1249,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.7" data-path="inspector.html">
+        <li class="chapter " data-level="1.14.7" data-path="../aws/inspector.html">
             
-                <a href="inspector.html">
+                <a href="../aws/inspector.html">
             
                     
                     Amazon Inspector
@@ -1266,9 +1262,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14.8" data-path="references.html">
+        <li class="chapter " data-level="1.14.8" data-path="../aws/references.html">
             
-                <a href="references.html">
+                <a href="../aws/references.html">
             
                     
                     References
@@ -2615,7 +2611,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Commands</a>
+        <a href=".." >General</a>
     </h1>
 </div>
 
@@ -2630,61 +2626,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="commands">Commands</h1>
-<h3 id="acl-の一覧を取得">ACL の一覧を取得</h3>
-<pre><code class="lang-bash"><span class="hljs-comment"># デフォルトのACLのみ取得</span>
-$ aws --region ap-northeast-1 ec2 describe-network-acls | jq <span class="hljs-string">&apos;.NetworkAcls[] | select(.IsDefault == true) | .NetworkAclId&apos;</span>
-</code></pre>
-<pre><code class="lang-bash"><span class="hljs-comment"># 全リージョンのデフォルトACLを取得</span>
-<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> $(aws --region ap-northeast-1 ec2 describe-regions | jq <span class="hljs-string">&quot;.Regions[].RegionName&quot;</span> | sed <span class="hljs-string">&apos;s/\&quot;//g&apos;</span>); <span class="hljs-keyword">do</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-variable">${value}</span>,
-  aws --region <span class="hljs-variable">${value}</span> ec2 describe-network-acls | jq <span class="hljs-string">&apos;.NetworkAcls[] | select(.IsDefault == true) | .NetworkAclId&apos;</span>
-<span class="hljs-keyword">done</span>
-</code></pre>
-<pre><code class="lang-bash"><span class="hljs-comment"># 全リージョンのACLをtsvで表示 (特定のタグを取得)</span>
-<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> $(aws --region ap-northeast-1 ec2 describe-regions | jq <span class="hljs-string">&quot;.Regions[].RegionName&quot;</span> | sed <span class="hljs-string">&apos;s/\&quot;//g&apos;</span>); <span class="hljs-keyword">do</span>
-  aws --region <span class="hljs-variable">${value}</span> ec2 describe-network-acls | jq -r <span class="hljs-string">&apos;.NetworkAcls[] | [.NetworkAclId, .IsDefault, (.Tags[]?|select(.Key==&quot;keyname&quot;)|.Value)] | @tsv&apos;</span> | sed <span class="hljs-string">&quot;s/^/<span class="hljs-variable">${value}</span>\t/&quot;</span>
-<span class="hljs-keyword">done</span>
-</code></pre>
-<pre><code class="lang-bash"><span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> $(aws --region ap-northeast-1 ec2 describe-regions | jq <span class="hljs-string">&quot;.Regions[].RegionName&quot;</span> | sed <span class="hljs-string">&apos;s/\&quot;//g&apos;</span>); <span class="hljs-keyword">do</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-variable">${value}</span>
-  acls=$(aws --region <span class="hljs-variable">${value}</span> ec2 describe-network-acls | jq -r <span class="hljs-string">&apos;.NetworkAcls[] | [.NetworkAclId, .VpcId, .IsDefault, (.Tags[]?|select(.Key==&quot;ManagedBy&quot;)|.Value)] | @tsv&apos;</span> | sed <span class="hljs-string">&quot;s/\ttrue//&quot;</span> | sed <span class="hljs-string">&quot;s/\tfalse/\tNotDefault/&quot;</span>)
-  vpcs=$(aws --region <span class="hljs-variable">${value}</span> ec2 describe-vpcs | jq <span class="hljs-string">&apos;.Vpcs[] | {&quot;VpcId&quot;: .VpcId, &quot;Tags&quot;: [.Tags[]?]}&apos;</span>)
-  <span class="hljs-keyword">for</span> vpc <span class="hljs-keyword">in</span> $(<span class="hljs-built_in">echo</span> <span class="hljs-variable">${vpcs}</span> | jq -r <span class="hljs-string">&apos;.VpcId&apos;</span>)
-  <span class="hljs-keyword">do</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-variable">${acls}</span> | grep <span class="hljs-variable">${vpc}</span> | sed <span class="hljs-string">&quot;s/<span class="hljs-variable">${vpc}</span>/<span class="hljs-variable">${vpc}</span>(<span class="hljs-subst">$(echo ${vpcs} | jq -r --arg vpc ${vpc} &apos;. | select(.VpcId== $vpc )</span> | .Tags[]?|select(.Key==&quot;</span>Name<span class="hljs-string">&quot;)|.Value&apos;))/&quot;</span>
-  <span class="hljs-keyword">done</span>
-  <span class="hljs-built_in">echo</span>;
-<span class="hljs-keyword">done</span>
-</code></pre>
-<pre><code class="lang-bash"><span class="hljs-comment"># ACLの一覧を取得し、terraform コードに整形</span>
-{
-<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;locals {&quot;</span>
-<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> $(aws --region ap-northeast-1 ec2 describe-regions | jq <span class="hljs-string">&quot;.Regions[].RegionName&quot;</span> | sed <span class="hljs-string">&apos;s/\&quot;//g&apos;</span>); <span class="hljs-keyword">do</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;  acl_ids_<span class="hljs-subst">$(echo ${value} | sed -r <span class="hljs-string">&quot;s/-([0-9])/\1/&quot;</span> | sed <span class="hljs-string">&quot;s/-/_/g&quot;</span> | sed <span class="hljs-string">&quot;s/north/n/&quot;</span> | sed <span class="hljs-string">&quot;s/south/s/&quot;</span> | sed <span class="hljs-string">&quot;s/central/c/&quot;</span> | sed <span class="hljs-string">&quot;s/east/e/&quot;</span> | sed <span class="hljs-string">&quot;s/west/w/&quot;</span>)</span> = [ # <span class="hljs-variable">${value}</span>&quot;</span>
-  acls=$(aws --region <span class="hljs-variable">${value}</span> ec2 describe-network-acls | jq -r <span class="hljs-string">&apos;.NetworkAcls[] | [.NetworkAclId, .VpcId, .IsDefault, (.Tags[]?|select(.Key==&quot;ManagedBy&quot;)|.Value)] | @tsv&apos;</span>| sort -t$<span class="hljs-string">&apos;\t&apos;</span> -k2 | sed <span class="hljs-string">&quot;s/vpc-/# vpc-/&quot;</span> | sed -r <span class="hljs-string">&quot;s/^(acl-[a-z0-9]*)/    \&quot;\1\&quot;,/&quot;</span> | sed <span class="hljs-string">&quot;s/\ttrue//&quot;</span> | sed <span class="hljs-string">&quot;s/\tfalse/\tNotDefault/&quot;</span> | sed -e <span class="hljs-string">&quot;$ s/\&quot;,\t/\&quot;\t/&quot;</span>)
-  vpcs=$(aws --region <span class="hljs-variable">${value}</span> ec2 describe-vpcs | jq <span class="hljs-string">&apos;.Vpcs[] | {&quot;VpcId&quot;: .VpcId, &quot;Tags&quot;: [.Tags[]?]}&apos;</span>)
-  <span class="hljs-keyword">for</span> vpc <span class="hljs-keyword">in</span> $(<span class="hljs-built_in">echo</span> <span class="hljs-variable">${vpcs}</span> | jq -r <span class="hljs-string">&apos;.VpcId&apos;</span> | sort)
-  <span class="hljs-keyword">do</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-variable">${acls}</span> | grep <span class="hljs-variable">${vpc}</span> | sed <span class="hljs-string">&quot;s/<span class="hljs-variable">${vpc}</span>/<span class="hljs-variable">${vpc}</span>(<span class="hljs-subst">$(echo ${vpcs} | jq -r --arg vpc ${vpc} &apos;. | select(.VpcId== $vpc )</span> | .Tags[]?|select(.Key==&quot;</span>Name<span class="hljs-string">&quot;)|.Value&apos;))/&quot;</span>
-  <span class="hljs-keyword">done</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;  ]&quot;</span>
-<span class="hljs-keyword">done</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;}&quot;</span>
-}
-</code></pre>
-<pre><code class="lang-bash">{
-<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> $(aws --region ap-northeast-1 ec2 describe-regions | jq <span class="hljs-string">&quot;.Regions[].RegionName&quot;</span> | sed <span class="hljs-string">&apos;s/\&quot;//g&apos;</span>); <span class="hljs-keyword">do</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;provider \&quot;aws\&quot; {&quot;</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;  alias  = \&quot;<span class="hljs-subst">$(echo ${value} | sed -r <span class="hljs-string">&quot;s/-([0-9])/\1/&quot;</span> | sed <span class="hljs-string">&quot;s/-/_/g&quot;</span> | sed <span class="hljs-string">&quot;s/north/n/&quot;</span> | sed <span class="hljs-string">&quot;s/south/s/&quot;</span> | sed <span class="hljs-string">&quot;s/central/c/&quot;</span> | sed <span class="hljs-string">&quot;s/east/e/&quot;</span> | sed <span class="hljs-string">&quot;s/west/w/&quot;</span>)</span>\&quot;&quot;</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;  region = \&quot;<span class="hljs-variable">${value}</span>\&quot;&quot;</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;}&quot;</span>
-  <span class="hljs-built_in">echo</span>;
-<span class="hljs-keyword">done</span>
-}
-</code></pre>
-<h3 id="参考">参考</h3>
-<p><a href="https://gist.github.com/hummus/8592113" target="_blank">gist - aws cli + jq example</a></p>
+                                <h1 id="container">Container</h1>
+<p><a href="https://nsjail.dev/" target="_blank">https://nsjail.dev/</a></p>
+<h2 id="references">References</h2>
 
                                 
                                 </section>
@@ -2712,14 +2656,6 @@ $ aws --region ap-northeast-1 ec2 describe-network-acls | jq <span class="hljs-s
 
             
                 
-                <a href="arch.html" class="navigation navigation-prev " aria-label="Previous page: Architecture">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="iam.html" class="navigation navigation-next " aria-label="Next page: IAM">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -2728,7 +2664,7 @@ $ aws --region ap-northeast-1 ec2 describe-network-acls | jq <span class="hljs-s
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Commands","level":"1.14.3","depth":2,"next":{"title":"IAM","level":"1.14.4","depth":2,"path":"aws/iam.md","ref":"aws/iam.md","articles":[]},"previous":{"title":"Architecture","level":"1.14.2","depth":2,"path":"aws/arch.md","ref":"aws/arch.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"aws/command.md","mtime":"2023-11-07T07:26:53.587Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-11-07T07:27:04.815Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"General","level":"1.2.1","depth":2,"next":{"title":"Kubernetes","level":"1.3","depth":1,"ref":"","articles":[{"title":"General","level":"1.3.1","depth":2,"path":"k8s/general.md","ref":"k8s/general.md","articles":[]},{"title":"Ingress","level":"1.3.2","depth":2,"path":"k8s/ingress.md","ref":"k8s/ingress.md","articles":[]},{"title":"External Secrets","level":"1.3.3","depth":2,"path":"k8s/external-secrets.md","ref":"k8s/external-secrets.md","articles":[]},{"title":"Secret Store CSI Driver","level":"1.3.4","depth":2,"path":"k8s/secret-store-csi-driver.md","ref":"k8s/secret-store-csi-driver.md","articles":[]},{"title":"Krew","level":"1.3.5","depth":2,"path":"k8s/krew.md","ref":"k8s/krew.md","articles":[]},{"title":"Policy","level":"1.3.6","depth":2,"path":"k8s/policy.md","ref":"k8s/policy.md","articles":[]},{"title":"Security","level":"1.3.7","depth":2,"path":"k8s/security.md","ref":"k8s/security.md","articles":[]},{"title":"Helm","level":"1.3.8","depth":2,"path":"k8s/helm.md","ref":"k8s/helm.md","articles":[]},{"title":"Plugins","level":"1.3.9","depth":2,"path":"k8s/plugins.md","ref":"k8s/plugins.md","articles":[]},{"title":"EKS","level":"1.3.10","depth":2,"path":"k8s/eks.md","ref":"k8s/eks.md","articles":[]},{"title":"Tips","level":"1.3.11","depth":2,"path":"k8s/tips.md","ref":"k8s/tips.md","articles":[]},{"title":"References","level":"1.3.12","depth":2,"path":"k8s/references.md","ref":"k8s/references.md","articles":[]}]},"previous":{"title":"Container","level":"1.2","depth":1,"ref":"","articles":[{"title":"General","level":"1.2.1","depth":2,"path":"container/general.md","ref":"container/general.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"container/general.md","mtime":"2023-11-07T07:26:53.587Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-11-07T07:27:04.815Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
