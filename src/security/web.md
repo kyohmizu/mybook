@@ -38,6 +38,8 @@ https://github.com/RenwaX23/XSSTRON
 
 ## References
 
+https://github.com/swisskyrepo/PayloadsAllTheThings
+
 https://ngailong.wordpress.com/author/ngalog/
 
 https://blog.orange.tw/

@@ -8,6 +8,8 @@ https://www.intellilink.co.jp/column/security/2020/060200.aspx
 
 ### MITRE ATT&CK の活用
 
+https://mitre-engenuity.org/cybersecurity/attack-evaluations/our-evaluations/
+
 https://attack.mitre.org/resources/working-with-attack/
 
 - ATT&CK Navigator (https://mitre-attack.github.io/attack-navigator/)

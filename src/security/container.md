@@ -8,6 +8,14 @@ https://sysdig.com/blog/container-security-best-practices/
 
 https://github.com/mrtc0/seccamp-2022
 
+## Attack
+
+https://redteamrecipe.com/100-Method-For-Container-Attacks/
+
+## Images
+
+https://houdini.secsi.io/
+
 # k8s
 
 https://github.com/cncf/tag-security
@@ -83,3 +91,7 @@ https://github.com/cilium/tetragon
 https://github.com/falcosecurity/falco
 
 https://github.com/owenrumney/lazytrivy
+
+https://github.com/google/docker-explorer
+
+https://github.com/google/container-explorer

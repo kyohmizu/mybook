@@ -22,6 +22,10 @@ https://www.mitiga.io/blog/misconfiguration-hidden-dangers-cloud-control-plane
 
 [セキュリティ チェックリスト](https://support.google.com/a/answer/9184226)
 
+## Azure
+
+[Cryptojacking: Understanding and defending against cloud compute resource abuse](https://www.microsoft.com/en-us/security/blog/2023/07/25/cryptojacking-understanding-and-defending-against-cloud-compute-resource-abuse/)
+
 ## Logging
 
 [Cloudy with a Chance of Bad Logs: Cloud Platform Log Configurations to Consider in Investigations](https://www.mandiant.com/resources/blog/cloud-bad-log-configurations)

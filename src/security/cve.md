@@ -68,6 +68,10 @@ cpe:/a:kubernetes:kubernetes
 cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
 ```
 
+## POC
+
+https://github.com/trickest/cve
+
 ### Tips
 
 - Candidate(候補) ステータスは廃止されたらしい

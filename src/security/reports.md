@@ -12,6 +12,8 @@
 
 [NICTに届いたEmotetへの感染を狙ったメール（2021年12月～2022年2月）](https://blog.nicter.jp/2022/03/topic_emotet_2022/)
 
+[Stolen Images Campaign Ends in Conti Ransomware](https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/)
+
 # Reports
 
 [Threat Landscape — ENISA](https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends)

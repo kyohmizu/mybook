@@ -20,6 +20,10 @@ https://blog.talosintelligence.com/2022/06/avoslocker-new-arsenal.html
 
 [サイバー犯罪者帝国の解体：REvilの逮捕と再出現](https://blogs.trellix.jp/dismantling-a-prolific-cybercriminal-empire)
 
+## Black Basta
+
+https://securityscorecard.com/research/a-deep-dive-into-black-basta-ransomware/
+
 ## Public Cloud
 
 https://unit42.paloaltonetworks.com/ransomware-in-public-clouds/

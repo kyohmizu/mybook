@@ -186,3 +186,5 @@ https://github.com/dropbox/zxcvbn
 https://github.com/GitGuardian/ggshield
 
 https://github.com/cisagov/cset
+
+https://github.com/owasp-amass/amass
