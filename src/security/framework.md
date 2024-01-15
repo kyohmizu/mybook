@@ -2,6 +2,14 @@
 
 https://hitrustalliance.net/product-tool/hitrust-csf/
 
+## Cybersecurity Framework
+
+https://www.nist.gov/cyberframework
+
+## Cybersecurity Maturity Model Certification (CMMC)
+
+https://dodcio.defense.gov/CMMC/about/
+
 ## OWASP DevSecOps Verification Standard
 
 https://owasp.org/www-project-devsecops-verification-standard/

@@ -1,5 +1,7 @@
 # Ransomware
 
+https://www.shadowstackre.com/
+
 ## Lockbit 2.0
 
 https://chuongdong.com/reverse%20engineering/2022/03/19/LockbitRansomware/

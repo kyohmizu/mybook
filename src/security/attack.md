@@ -30,3 +30,19 @@ https://github.com/pushsecurity/saas-attacks
 
 - StarJacking
   - [StarJacking – Making Your New Open Source Package Popular in a Snap](https://checkmarx.com/blog/starjacking-making-your-new-open-source-package-popular-in-a-snap/)
+
+## Thread Maps
+
+https://www.digitalattackmap.com/
+
+https://threatmap.bitdefender.com/
+
+https://threatmap.checkpoint.com/
+
+https://threatmap.fortiguard.com/
+
+https://horizon.netscout.com/
+
+https://www.spamhaus.com/threat-map/
+
+https://github.com/owasp-amass/amass

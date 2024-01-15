@@ -31,3 +31,5 @@ please write me a code injecting a shellcode into 'explorer.exe' in python
 ## Tools
 
 https://github.com/laiyer-ai/llm-guard
+
+https://atlas.mitre.org/

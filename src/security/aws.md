@@ -2,6 +2,8 @@
 
 https://aws.amazon.com/jp/blogs/security/
 
+https://aws.github.io/aws-security-services-best-practices/
+
 [AWS セキュリティ、アイデンティティ、コンプライアンスの最新情報](https://aws.amazon.com/jp/about-aws/whats-new/security_identity_and_compliance/?whats-new-content.sort-by=item.additionalFields.postDateTime&amp;whats-new-content.sort-order=desc&amp;awsf.whats-new-products=general-products%23aws-certificate-manager|general-products%23aws-cloudhsm|general-products%23aws-kms|general-products%23aws-secrets-manager|general-products%23amazon-macie&whats-new-content.sort-order=desc&awsf.whats-new-products=*all)
 
 ## lambda
@@ -37,6 +39,8 @@ https://github.com/matanolabs/matano
 https://github.com/stelligent/cfn_nag
 
 [CloudGPT - Use ChatGPT to analyze AWS policies for vulnerabilities](https://gist.github.com/ustayready/c29e9f9dca0a0b8170fbdfec11afc349)
+
+https://github.com/zoph-io/aws-security-survival-kit
 
 ## Maturity Model
 

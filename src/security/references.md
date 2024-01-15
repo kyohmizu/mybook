@@ -103,3 +103,5 @@ https://www.nicter.jp/
 https://securelist.com/
 
 https://www.cisa.gov/stopransomware
+
+https://tldrsec.com/

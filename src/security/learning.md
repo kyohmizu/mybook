@@ -44,6 +44,10 @@ https://www.vulnhub.com/
 
 https://nepcodex.com/2021/06/cap-walkthrough-hackthebox-writeup/
 
+## Cloud
+
+https://slaw.securosis.com/
+
 ## CISSP
 
 https://www.isc2chapter.jp/docs

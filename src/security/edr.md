@@ -13,6 +13,8 @@ https://www.form3.tech/engineering/content/bypassing-ebpf-tools
 - Cilium Tetragon
   - https://github.com/cilium/tetragon
 
+https://github.com/Xacone/BestEdrOfTheMarket
+
 ## CrowdStrike falcon
 
 https://github.com/pe3zx/crowdstrike-falcon-queries
