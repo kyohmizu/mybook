@@ -26,6 +26,10 @@ https://cloud.google.com/logging/docs/alerting/log-based-alerts
 
 https://github.com/GoogleCloudPlatform/security-analytics
 
+## Forensics
+
+https://github.com/SygniaLabs/Cirrus
+
 ## Workspace
 
 https://github.com/invictus-ir/ALFA

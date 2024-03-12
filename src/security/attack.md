@@ -26,6 +26,22 @@ https://github.com/pushsecurity/saas-attacks
 
 [Slack Attack: A phisher's guide to initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
 
+## iOS Attack
+
+https://github.com/EntySec/SeaShell
+
+## Windows Attack
+
+https://github.com/Tylous/ScareCrow
+
+## HackTricks
+
+[URL Format Bypass](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery/url-format-bypass)
+
+## Secret
+
+https://github.com/ntoskernel/deepsecrets
+
 ## Attack List
 
 - StarJacking

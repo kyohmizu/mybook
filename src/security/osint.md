@@ -4,6 +4,10 @@ https://www.cisa.gov/publication/stuff-off-search
 
 ![Search Engine for Secuirty Engineers](img/searchengine-sec.jpeg)
 
+## Google Search
+
+https://github.com/Ishanoshada/GDorks
+
 ## IP Address
 
 https://ipinfo.io/
@@ -27,6 +31,8 @@ https://hackertarget.com/top-million-site-list-download/
 https://www.v2.openresolver.jp/
 
 https://dnslytics.com/
+
+https://toolbox.googleapps.com/apps/dig/
 
 ## SubDomain
 

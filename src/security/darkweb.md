@@ -20,6 +20,8 @@ https://deepdarkweb.github.io/how-to-install-tor-on-macos-tutorial/
 
 https://wildcardcorp.com/blogs/tor-torify-torsocks
 
+https://www.browserling.com/tor-testing
+
 ## Onion Websites
 
 https://github.com/DeepWebOnion/darkweb-links

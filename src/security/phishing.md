@@ -24,6 +24,8 @@ https://github.com/kgretzky/evilginx2
 
 https://github.com/An0nUD4Y/Evilginx2-Phishlets
 
+https://github.com/m57/dnsteal
+
 ## Training
 
 https://phishingquiz.withgoogle.com/

@@ -4,11 +4,11 @@ https://superuser.com/questions/188058/which-ports-are-considered-unsafe-by-chro
 
 [Application Security Cheat Sheet](https://0xn3va.gitbook.io/cheat-sheets/)
 
-### OWASP
+## OWASP
 
 [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 
-### Have I been pwned
+## Have I been pwned
 
 https://haveibeenpwned.com/
 
@@ -18,29 +18,33 @@ https://haveibeenpwned.com/
 
 [サイバーセキュリティ関係法令Q＆Aハンドブック](https://security-portal.nisc.go.jp/guidance/law_handbook.html)
 
-### Web サーバーの情報
+## Web サーバーの情報
 
 https://news.netcraft.com/
 
-### ダークウェブ
+## ダークウェブ
 
 https://www.ipa.go.jp/files/000080167.pdf
 
 https://www.webhostingsecretrevealed.net/ja/blog/security/dark-web-websites-onion-links/
 
-### OSS
+## OSS
 
 https://openssf.org/
 
-### Unicode in URLs
+## Unicode in URLs
 
 https://github.com/cure53/H5SC/wiki/Unicode-Characters-in-URLs
 
-### Bug Hunt
+## Bug Hunt
 
 https://huntr.dev/
 
-### news, blogs
+## Conference Slides
+
+https://github.com/onhexgroup/Conferences
+
+## news, blogs
 
 [piyolog](https://piyolog.hatenadiary.jp/)
 
@@ -105,3 +109,5 @@ https://securelist.com/
 https://www.cisa.gov/stopransomware
 
 https://tldrsec.com/
+
+https://github.com/signalscorps/awesome-threat-intel-blogs

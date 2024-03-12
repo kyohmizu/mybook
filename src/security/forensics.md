@@ -16,6 +16,8 @@ https://github.com/google/cloud-forensics-utils
 
 https://github.com/invictus-ir/ALFA
 
+https://github.com/SygniaLabs/Cirrus
+
 ### Windows
 
 [小規模CSIRT向けWindowsイベントログで押さえておくこと](https://ierae.co.jp/blog/csirt_windows_event_log/)
