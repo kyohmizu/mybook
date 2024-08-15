@@ -143,6 +143,7 @@
   - [Google Cloud Security](security/gcp.md)
   - [CI/CD](security/cicd.md)
   - [LLM](security/openai.md)
+  - [SBOM](security/sbom.md)
   - [AWS Security](security/aws.md)
   - [WAF](security/waf.md)
   - [Web](security/web.md)
