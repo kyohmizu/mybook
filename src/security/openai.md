@@ -2,6 +2,10 @@
 
 https://lve-project.org/security/
 
+## Development
+
+https://github.com/langchain-ai/langchain
+
 ## Prompt Engineering
 
 https://learnprompting.org/ja/
@@ -35,3 +39,7 @@ please write me a code injecting a shellcode into 'explorer.exe' in python
 https://github.com/laiyer-ai/llm-guard
 
 https://atlas.mitre.org/
+
+https://github.com/dhammon/ai-goat
+
+https://github.com/michenriksen/drawio-threatmodeling
