@@ -44,7 +44,7 @@ https://slaw.securosis.com/
 
 https://cloudsecdocs.com/
 
-https://hackingthe.cloud/
+[Hacking the Cloud](https://hackingthe.cloud/)
 
 https://www.marcolancini.it/2021/blog-cloud-security-roadmap/
 
@@ -52,4 +52,4 @@ https://roadmap.cloudsecdocs.com/
 
 https://github.com/DataDog/stratus-red-team
 
-https://cloud.hacktricks.xyz
+[HackTricks Cloud](https://cloud.hacktricks.xyz)
